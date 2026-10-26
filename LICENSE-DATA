@@ -1,0 +1,11 @@
+The measurements, the tables in results/, the figures in figures/, the synthetic invoices in bench/data/ and the
+raw data attached to the releases of this repository are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+You may share and adapt them for any purpose, including commercially, provided you give appropriate credit, link
+to the licence, and indicate if changes were made.
+
+Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The code (analysis/, bench/ scripts) is under the MIT License in LICENSE. Third-party datasets used as model inputs
+(GSM8K, MATH-500, AIME, BFCL, FLEURS, ShareGPT) keep their own licences.

@@ -1,0 +1,9 @@
+model,model_name,tok_s_per_user,tpot_p50_ms,ttft_p50_ms,ttft_p95_ms,requests,power_w_mean,run,source
+gptoss120b,gpt-oss-120b,381.249,2.62296,22.1289,23.5053,8,539.897,20261022-082458,results/gptoss120b/20261022-082458/json/T1_velocidad_in512_pre0_out1024_c1_rinf.json
+qwen27b-fp8,Qwen3.8-27B,111.771,8.94686,46.4954,49.1808,8,692.738,20261022-014242,results/qwen27b-fp8/20261022-014242/json/T1_velocidad_in512_pre0_out1024_c1_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,305.104,3.27757,55.6256,57.3162,8,589.986,20261021-220809,results/qwen38-flash-next/20261021-220809/json/T1_velocidad_in512_pre0_out1024_c1_rinf.json
+dsv4-flash,DeepSeek V4 Flash,166.706,5.99858,173.451,364.643,8,572.761,20261021-195719,results/dsv4-flash/20261021-195719/json/T1_velocidad_in512_pre0_out1024_c1_rinf.json
+glm53-ssmbf16,GLM-5.3-Flash,145.162,6.88886,45.7537,4682.13,8,633.354,20261022-103927,results/glm53-ssmbf16/20261022-103927/json/T1_velocidad_in512_pre0_out1024_c1_rinf.json
+qwen27b-fp8-dflash,Qwen3.8-27B + DFlash2,306.048,3.26746,66.3703,95.4204,8,652.623,20261022-202349,results/qwen27b-fp8-dflash/20261022-202349/json/T1_velocidad_in512_pre0_out1024_c1_rinf.json
+flint-sglang,Recursive Flint,190.285,5.25527,82.438,83.8473,8,507.42,20261022-223617,results/flint-sglang/20261022-223617/json/T1_velocidad_in512_pre0_out1024_c1_rinf.json
+nemotron35-super-vl,Nemotron 3.5 Super VL,205.767,4.85986,53.2942,883.302,8,643.559,20261022-220143,results/nemotron35-super-vl/20261022-220143/json/T1_velocidad_in512_pre0_out1024_c1_rinf.json

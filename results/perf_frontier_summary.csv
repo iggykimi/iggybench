@@ -1,0 +1,8 @@
+model,model_name,max_output_tok_s,users_at_max,output_tok_s_at_20_per_user,output_tok_s_at_30_per_user,output_tok_s_at_50_per_user,output_tok_s_at_100_per_user
+dsv4-flash,DeepSeek V4 Flash,2759.77,128,,2386.87,1728.84,861.654
+flint-sglang,Recursive Flint,3160.44,128,,,2560.98,1405.72
+glm53-ssmbf16,GLM-5.3-Flash,2175.8,128,2051.7,1617.31,1105.03,507.911
+gptoss120b,gpt-oss-120b,4639.95,128,,,4150.96,2874.88
+nemotron35-super-vl,Nemotron 3.5 Super VL,2422.63,128,2405.78,2062.3,1453.84,599.653
+qwen27b-fp8,Qwen3.8-27B,2222.18,128,2155.61,1723.95,1571.86,739.386
+qwen38-flash-next,Qwen3.8-Flash-Next,2736.16,128,,2556.94,2074.52,1305.51

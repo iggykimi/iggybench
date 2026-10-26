@@ -1,0 +1,10 @@
+model,model_name,users,reference_batch,sharegpt_input_tokens_mean,sharegpt_output_tokens_mean,t3_tpot_p50_ms,sharegpt_tpot_p50_ms,tpot_change_pct,source
+dsv4-flash,DeepSeek V4 Flash,16,batch2,202.719,235.016,11.9089,16.3374,37.1865,results/dsv4-flash/20261021-195719/json/T15_chat@sharegpt_in1024_pre0_out512_c16_rinf.json
+dsv4-flash,DeepSeek V4 Flash,64,batch2,224.027,210.906,21.9037,40.9125,86.7835,results/dsv4-flash/20261021-195719/json/T15_chat@sharegpt_in1024_pre0_out512_c64_rinf.json
+dsv4-flash,DeepSeek V4 Flash,150,batch2,226.397,189.2,30.4417,89.9435,195.461,results/dsv4-flash/20261021-195719/json/T15_chat@sharegpt_in1024_pre0_out512_c150_rinf.json
+gptoss120b,gpt-oss-120b,16,batch1,214.172,178.188,5.54442,6.77879,22.2633,results/gptoss120b/20261022-001945/json/T15_chat@sharegpt_in1024_pre0_out512_c16_rinf.json
+gptoss120b,gpt-oss-120b,64,batch1,218.039,209.66,10.3381,11.9596,15.6847,results/gptoss120b/20261022-001945/json/T15_chat@sharegpt_in1024_pre0_out512_c64_rinf.json
+gptoss120b,gpt-oss-120b,150,batch1,229.867,183.968,15.1096,16.6313,10.0711,results/gptoss120b/20261022-001945/json/T15_chat@sharegpt_in1024_pre0_out512_c150_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,16,batch2,222.266,198.875,11.1368,9.41219,-15.4857,results/qwen38-flash-next/20261021-220809/json/T15_chat@sharegpt_in1024_pre0_out512_c16_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,64,batch2,195.992,224.094,20.4755,18.5805,-9.25496,results/qwen38-flash-next/20261021-220809/json/T15_chat@sharegpt_in1024_pre0_out512_c64_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,150,batch2,239.975,217.83,32.9587,34.7854,5.54239,results/qwen38-flash-next/20261021-220809/json/T15_chat@sharegpt_in1024_pre0_out512_c150_rinf.json

@@ -1,0 +1,10 @@
+model,model_name,max_point_power_w,at,source
+gptoss120b,gpt-oss-120b,1201.28,T3 razonamiento conc=150 rate=inf,results/gptoss120b/20261021-084142/json/T3_razonamiento_in512_pre0_out4096_c150_rinf.json
+qwen27b-fp8,Qwen3.8-27B,1259.29,T12 estandar conc=128 rate=inf,results/qwen27b-fp8/20261022-014242/json/T12_estandar_in8192_pre0_out1024_c128_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,1172.19,T15 estandar@real conc=128 rate=inf,results/qwen38-flash-next/20261022-073000/json/T15_estandar@real_in8192_pre0_out1024_c128_rinf.json
+dsv4-flash,DeepSeek V4 Flash,1176.22,T3 rag conc=150 rate=inf,results/dsv4-flash/20261021-195719/json/T3_rag_in8192_pre0_out256_c150_rinf.json
+glm53-ssmbf16,GLM-5.3-Flash,1289.08,T15 estandar@real conc=128 rate=inf,results/glm53-ssmbf16/20261022-044720/json/T15_estandar@real_in8192_pre0_out1024_c128_rinf.json
+qwen27b-fp8-dflash,Qwen3.8-27B + DFlash2,1301.48,T4 chat conc=- rate=12.0,results/qwen27b-fp8-dflash/20261022-202455/json/T4_chat_in1024_pre0_out512_c-_r12.json
+flint-sglang,Recursive Flint,931.221,T12 estandar conc=128 rate=inf,results/flint-sglang/20261022-225434/json/T12_estandar_in8192_pre0_out1024_c128_rinf.json
+nemotron35-super-vl,Nemotron 3.5 Super VL,1220.71,T12 estandar conc=128 rate=inf,results/nemotron35-super-vl/20261022-220143/json/T12_estandar_in8192_pre0_out1024_c128_rinf.json
+idle,idle (no model loaded),338.927,mean of 300 one-second samples,results/reposo/20261022-142232/gpu.csv

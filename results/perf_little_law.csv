@@ -1,0 +1,6 @@
+model,model_name,max_num_seqs,ttft_p50_ms,tpot_p50_ms,predicted_req_s,measured_last_pass_req_s,measured_first_fail_req_s,source
+gptoss120b,gpt-oss-120b,256,244.646,24.6169,19.9628,18,20,results/gptoss120b/20261022-152230/json/T4F_chat_in1024_pre0_out512_c-_r20.json
+qwen27b-fp8,Qwen3.8-27B,256,292.306,40.7799,12.115,9,10,results/qwen27b-fp8/20261022-094553/json/T4F_chat_in1024_pre0_out512_c-_r10.json
+qwen38-flash-next,Qwen3.8-Flash-Next,256,346.198,34.4505,14.2615,6,7,results/qwen38-flash-next/20261022-073000/json/T4F_chat_in1024_pre0_out512_c-_r7.json
+dsv4-flash,DeepSeek V4 Flash,128,346.373,46.8105,5.27475,4,5,results/dsv4-flash/20261022-062829/json/T4F_chat_in1024_pre0_out512_c-_r5.json
+glm53-ssmbf16,GLM-5.3-Flash,256,294.684,56.3091,8.80674,5,6,results/glm53-ssmbf16/20261022-103927/json/T4F_chat_in1024_pre0_out512_c-_r6.json

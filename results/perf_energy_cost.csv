@@ -1,0 +1,20 @@
+model,model_name,operating_point,output_tok_s,power_w_mean,j_per_output_token,eur_per_mtok_out,eur_per_mtok_out_low_price,eur_per_mtok_out_office_hours,electricity_share_pct,source
+gptoss120b,gpt-oss-120b,T12 peak throughput,4639.95,1119.66,0.306287,0.328978,0.215077,1.33286,3.05629,results/gptoss120b/20261022-001945/json/T12_estandar_in8192_pre0_out1024_c128_rinf.json
+gptoss120b,gpt-oss-120b,chat at capacity,8654.56,1059.05,0.146593,0.176083,0.115017,0.714293,2.89563,results/gptoss120b/20261022-152230/json/T4F_chat_in1024_pre0_out512_c-_r18.json
+gptoss120b,gpt-oss-120b,chat steady state (10 min),8112.64,1124.81,0.153821,0.188183,0.123038,0.762345,3.06991,results/gptoss120b/20261022-001945/json/T19_chat@estacionario_in1024_pre0_out512_c-_r16.0.json
+qwen27b-fp8,Qwen3.8-27B,T12 peak throughput,2222.18,1259.29,0.649119,0.68953,0.451702,2.78566,3.42438,results/qwen27b-fp8/20261022-014242/json/T12_estandar_in8192_pre0_out1024_c128_rinf.json
+qwen27b-fp8,Qwen3.8-27B,chat at capacity,4241.47,1076.75,0.291419,0.359464,0.234862,1.45766,2.94261,results/qwen27b-fp8/20261022-094553/json/T4F_chat_in1024_pre0_out512_c-_r9.json
+qwen27b-fp8,Qwen3.8-27B,chat steady state (10 min),4048.08,1070.46,0.282799,0.376572,0.246017,1.52723,2.92592,results/qwen27b-fp8/20261022-014242/json/T19_chat@estacionario_in1024_pre0_out512_c-_r8.0.json
+qwen38-flash-next,Qwen3.8-Flash-Next,T12 peak throughput,2736.16,1090.72,0.468701,0.557437,0.364284,2.25981,2.97965,results/qwen38-flash-next/20261021-220809/json/T12_estandar_in8192_pre0_out1024_c128_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,chat at capacity,2854.03,822.559,0.325075,0.5305,0.345325,2.16257,2.26366,results/qwen38-flash-next/20261022-073000/json/T4F_chat_in1024_pre0_out512_c-_r6.json
+qwen38-flash-next,Qwen3.8-Flash-Next,chat steady state (10 min),2030.93,844.912,0.432492,0.745961,0.485737,3.03948,2.32375,results/qwen38-flash-next/20261021-220809/json/T19_chat@estacionario_in1024_pre0_out512_c-_r4.0.json
+dsv4-flash,DeepSeek V4 Flash,T12 peak throughput,2759.77,1170.51,0.502513,0.553873,0.362373,2.24169,3.19066,results/dsv4-flash/20261021-195719/json/T12_estandar_in8192_pre0_out1024_c128_rinf.json
+dsv4-flash,DeepSeek V4 Flash,chat at capacity,1853.19,838.287,0.505102,0.817358,0.532176,3.33085,2.30595,results/dsv4-flash/20261021-195719/json/T4_chat_in1024_pre0_out512_c-_r4.json
+dsv4-flash,DeepSeek V4 Flash,chat steady state (10 min),2015.25,891.347,0.460507,0.752725,0.490477,3.06409,2.44833,results/dsv4-flash/20261021-195719/json/T19_chat@estacionario_in1024_pre0_out512_c-_r4.0.json
+glm53-ssmbf16,GLM-5.3-Flash,T12 peak throughput,2175.8,1250.3,0.640514,0.704056,0.461159,2.84487,3.40076,results/glm53-ssmbf16/20261022-044720/json/T12_estandar_in8192_pre0_out1024_c128_rinf.json
+glm53-ssmbf16,GLM-5.3-Flash,chat at capacity,2224.92,1039.23,0.519821,0.68456,0.447025,2.77811,2.84298,results/glm53-ssmbf16/20261022-103927/json/T4F_chat_in1024_pre0_out512_c-_r5.json
+qwen27b-fp8-dflash,Qwen3.8-27B + DFlash2,chat at capacity,1911.05,980.229,0.585342,0.795706,0.519158,3.2331,2.68591,results/qwen27b-fp8-dflash/20261022-202455/json/T4_chat_in1024_pre0_out512_c-_r4.json
+flint-sglang,Recursive Flint,T12 peak throughput,3160.44,931.221,0.360106,0.4805,0.313277,1.95434,2.55506,results/flint-sglang/20261022-225434/json/T12_estandar_in8192_pre0_out1024_c128_rinf.json
+flint-sglang,Recursive Flint,chat at capacity,3748.29,789.37,0.244743,0.403566,0.262569,1.64626,2.17431,results/flint-sglang/20261022-224152/json/T4_chat_in1024_pre0_out512_c-_r8.json
+nemotron35-super-vl,Nemotron 3.5 Super VL,T12 peak throughput,2422.63,1220.71,0.574793,0.631815,0.413665,2.55451,3.32295,results/nemotron35-super-vl/20261022-220143/json/T12_estandar_in8192_pre0_out1024_c128_rinf.json
+nemotron35-super-vl,Nemotron 3.5 Super VL,chat at capacity,952.123,855.99,1.01828,1.59166,1.03659,6.48386,2.3535,results/nemotron35-super-vl/20261022-222053/json/T4_chat_in1024_pre0_out512_c-_r2.json

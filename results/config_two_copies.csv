@@ -1,0 +1,6 @@
+total_users,one_instance_tok_s,two_copies_tok_s,change_pct,one_instance_tpot_p50_ms,two_copies_tpot_p50_ms,source
+16,2699.96,1502.65,-44.3455,5.58991,10.284,results/gptoss-x1/20261022-090325/json/T3_chat_in1024_pre0_out512_c16_rinf.json
+32,3967.97,2356.65,-40.6082,7.64777,13.2149,results/gptoss-x1/20261022-090325/json/T3_chat_in1024_pre0_out512_c32_rinf.json
+64,5860.26,3496.17,-40.341,10.1405,17.4261,results/gptoss-x1/20261022-090325/json/T3_chat_in1024_pre0_out512_c64_rinf.json
+128,8518.67,5002.07,-41.2811,14.1408,24.2325,results/gptoss-x1/20261022-090325/json/T3_chat_in1024_pre0_out512_c128_rinf.json
+256,11805.4,7289.67,-38.2514,19.6803,33.1413,results/gptoss-x1/20261022-090325/json/T3_chat_in1024_pre0_out512_c256_rinf.json

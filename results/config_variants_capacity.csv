@@ -1,0 +1,24 @@
+experiment,rate_req_s,variant_meets_slo,variant_ttft_p95_ms,variant_tpot_p95_ms,baseline_meets_slo,baseline_ttft_p95_ms,baseline_tpot_p95_ms,source
+gpt-oss sharing the GPU with two other models,0.5,True,91.8666,13.5453,True,54.4083,3.33822,results/plataforma-gptoss/20261022-041924/json/T4_chat_in1024_pre0_out512_c-_r0.5.json
+gpt-oss sharing the GPU with two other models,1,True,100.903,17.1575,True,70.0225,4.47185,results/plataforma-gptoss/20261022-041924/json/T4_chat_in1024_pre0_out512_c-_r1.json
+gpt-oss sharing the GPU with two other models,2,True,104.62,19.8289,True,94.2162,5.94308,results/plataforma-gptoss/20261022-041924/json/T4_chat_in1024_pre0_out512_c-_r2.json
+gpt-oss sharing the GPU with two other models,4,True,129.907,28.6711,True,96.1485,8.32543,results/plataforma-gptoss/20261022-041924/json/T4_chat_in1024_pre0_out512_c-_r4.json
+gpt-oss sharing the GPU with two other models,8,True,183.37,41.9716,True,114.971,12.6882,results/plataforma-gptoss/20261022-041924/json/T4_chat_in1024_pre0_out512_c-_r8.json
+gpt-oss sharing the GPU with two other models,12,False,15156,50.5982,True,139.462,18.2297,results/plataforma-gptoss/20261022-041924/json/T4_chat_in1024_pre0_out512_c-_r12.json
+gpt-oss sharing the GPU with two other models,16,,,,True,167.577,23.4335,results/gptoss120b/20261022-001945/json/T4_chat_in1024_pre0_out512_c-_r16.json
+DeepSeek with 256 instead of 128 sequences,0.5,True,372.592,10.4044,True,313.329,8.92773,results/dsv4-flash-s256/20261022-124315/json/T4_chat_in1024_pre0_out512_c-_r0.5.json
+DeepSeek with 256 instead of 128 sequences,1,True,360.725,15.8994,True,343.003,14.2929,results/dsv4-flash-s256/20261022-124315/json/T4_chat_in1024_pre0_out512_c-_r1.json
+DeepSeek with 256 instead of 128 sequences,2,True,393.477,23.8586,True,407.816,22.0438,results/dsv4-flash-s256/20261022-124315/json/T4_chat_in1024_pre0_out512_c-_r2.json
+DeepSeek with 256 instead of 128 sequences,4,True,488.022,45.3199,True,494.76,46.7269,results/dsv4-flash-s256/20261022-124315/json/T4_chat_in1024_pre0_out512_c-_r4.json
+DeepSeek with 256 instead of 128 sequences,5,False,493.219,58.0954,False,2005.22,49.7692,results/dsv4-flash-s256/20261022-124315/json/T4F_chat_in1024_pre0_out512_c-_r5.json
+DeepSeek with 256 instead of 128 sequences,6,,,,False,13950,49.2012,results/dsv4-flash/20261022-062829/json/T4F_chat_in1024_pre0_out512_c-_r6.json
+DeepSeek with 256 instead of 128 sequences,8,False,7667.36,70.8686,False,40127.8,53.1253,results/dsv4-flash-s256/20261022-124315/json/T4_chat_in1024_pre0_out512_c-_r8.json
+Qwen Flash n-gram table in GPU memory instead of Grace RAM,0.5,True,297.817,7.26757,True,182.445,6.89087,results/qwen38-flash-next-ngramgpu/20261022-000132/json/T4_chat_in1024_pre0_out512_c-_r0.5.json
+Qwen Flash n-gram table in GPU memory instead of Grace RAM,1,True,304.13,8.1401,True,328.165,7.60903,results/qwen38-flash-next-ngramgpu/20261022-000132/json/T4_chat_in1024_pre0_out512_c-_r1.json
+Qwen Flash n-gram table in GPU memory instead of Grace RAM,2,True,323.944,13.0363,True,369.338,12.7665,results/qwen38-flash-next-ngramgpu/20261022-000132/json/T4_chat_in1024_pre0_out512_c-_r2.json
+Qwen Flash n-gram table in GPU memory instead of Grace RAM,4,True,413.958,23.7381,True,442.206,26.5065,results/qwen38-flash-next-ngramgpu/20261022-000132/json/T4_chat_in1024_pre0_out512_c-_r4.json
+Qwen Flash n-gram table in GPU memory instead of Grace RAM,5,,,,False,449.219,31.5535,results/qwen38-flash-next/20261022-073000/json/T4F_chat_in1024_pre0_out512_c-_r5.json
+Qwen Flash n-gram table in GPU memory instead of Grace RAM,6,,,,True,451.983,43.2522,results/qwen38-flash-next/20261022-073000/json/T4F_chat_in1024_pre0_out512_c-_r6.json
+Qwen Flash n-gram table in GPU memory instead of Grace RAM,7,,,,False,464.122,50.1253,results/qwen38-flash-next/20261022-073000/json/T4F_chat_in1024_pre0_out512_c-_r7.json
+Qwen Flash n-gram table in GPU memory instead of Grace RAM,8,False,19154.6,42.5768,False,490.467,60.7631,results/qwen38-flash-next-ngramgpu/20261022-000132/json/T4_chat_in1024_pre0_out512_c-_r8.json
+Qwen Flash n-gram table in GPU memory instead of Grace RAM,12,,,,False,26979.5,67.598,results/qwen38-flash-next/20261021-220809/json/T4_chat_in1024_pre0_out512_c-_r12.json

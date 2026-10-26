@@ -1,0 +1,37 @@
+set,pipeline,model,model_name,concurrency,requests,documents,reference_level,field_accuracy_pct,field_accuracy_no_nif_pct,amounts_accuracy_pct,base_accuracy_pct,total_accuracy_pct,nif_accuracy_pct,lines_accuracy_pct,perfect_invoices_pct,perfect_ci95_low_pct,perfect_ci95_high_pct,pages_per_min,latency_p50_s,latency_p95_s,output_tokens_mean,failures,client_field_accuracy_pct,source
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,16,40,False,100,100,100,100,100,100,100,100,91.2375,100,47.1,1.27,1.31,124,0,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,4,16,40,False,100,100,100,100,100,100,100,100,91.2375,100,172.6,1.42,1.53,124,0,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,16,32,40,False,100,100,100,100,100,100,100,100,91.2375,100,385.6,2.58,2.85,123,0,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,40,True,99.8,99.7714,100,100,100,100,100,98.4,88.5214,99.7965,632.2,3.02,4.02,123,0,99.8,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,64,128,40,False,99.9,99.8857,100,100,100,100,100,99.2,89.8352,99.9426,791.7,4.8,7.16,123,0,99.9,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,128,256,40,False,99.85,99.8286,100,100,100,100,100,98.8,89.1691,99.8787,1007.2,7.4,12.26,123,0,99.9,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,16,40,False,100,100,100,100,100,100,100,100,91.2375,100,130.5,0.46,0.54,128,0,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,4,16,40,False,100,100,100,100,100,100,100,100,91.2375,100,288.4,0.87,1.04,128,0,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,16,32,40,False,100,100,100,100,100,100,100,100,91.2375,100,542.7,1.74,2.46,127,0,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,40,True,100,100,100,100,100,100,100,100,91.2375,100,627.4,2.99,4.25,128,0,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,64,128,40,False,100,100,100,100,100,100,100,100,91.2375,100,696.2,5.29,9.11,128,0,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,128,256,40,False,100,100,100,100,100,100,100,100,91.2375,100,739,9.9,16.75,127,0,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,16,40,False,100,100,100,100,100,100,100,100,91.2375,100,22.5,2.49,4.78,360,0,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,4,16,40,False,100,100,100,100,100,100,100,100,91.2375,100,58.3,4.09,7.35,378,0,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,16,32,40,False,100,100,100,100,100,100,100,100,91.2375,100,111.6,7.24,10.21,376,0,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,40,True,100,100,100,100,100,100,100,100,91.2375,100,157.2,10.35,16.02,382,0,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,64,128,40,False,100,100,100,100,100,100,100,100,91.2375,100,204,15.53,25.57,389,0,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,128,256,40,False,100,100,100,100,100,100,100,100,91.2375,100,265.4,24.87,42.85,395,0,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,40,True,99.375,99.2857,100,100,100,100,100,95,83.4958,98.618,48.8,1.23,1.43,,0,99.4,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,40,False,99.375,99.2857,100,100,100,100,100,95,83.4958,98.618,287.3,2.92,3.37,,0,99.4,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,32,64,40,False,99.225,99.1143,100,100,100,100,100,93.8,81.8572,98.0669,488.3,3.74,4.48,,0,99.2,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,vision_llm_shared_gpu,plataforma-docs,"Qwen3.8-27B (shared GPU, 33 % memory)",8,2687,40,True,99.7125,99.6714,100,100,100,100,100,97.7,87.4244,99.6162,178.9,2.04,3.81,123,0,99.7,results/plataforma-docs/20261022-041914/vision.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,30,30,True,92.9125,93.8,100,100,100,86.7,70,50,33.1539,66.8461,48.3,1.24,1.28,126,0,92.9,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,8,30,30,False,93.325,94.2714,100,100,100,86.7,73.3,50,33.1539,66.8461,301.9,1.42,1.79,126,0,93.3,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,30,False,92.775,93.7571,100,100,100,85.9,70.3,48.4,31.7431,65.4201,848.6,2.23,2.88,126,0,92.8,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,30,30,True,88.7625,91.4429,98.35,100,96.7,70,50,33.3,19.2042,51.1872,135.7,0.44,0.45,129,0,88.8,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,8,30,30,False,89.6,92.4,98.35,100,96.7,70,56.7,36.7,21.9005,54.519,428.4,1.09,1.47,129,0,89.6,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,30,False,90.4375,93.3143,98.45,100,96.9,70.3,64.1,43.8,27.7729,61.2347,951,2.02,2.81,129,0,90.4,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,30,30,True,93.75,95.2429,96.7,96.7,96.7,83.3,93.3,73.3,55.517,85.7931,10.1,5.2,11.08,805,0,93.8,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,8,30,30,False,90.4,91.8857,93.3,93.3,93.3,80,90,70,52.1239,83.3354,38.6,10.93,20.11,907,0,90.4,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,30,False,92.3875,93.5286,95.3,95.3,95.3,84.4,93.8,75,57.2994,87.0247,76.2,18.46,32.07,890,0,92.4,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,1,30,30,True,63.325,69.5143,96.65,93.3,100,20,3.3,0,0,11.3517,127.2,0.42,0.44,119,0,63.3,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,8,30,30,False,62.075,68.0857,96.65,93.3,100,20,3.3,0,0,11.3517,491.8,0.99,1.32,119,0,62.1,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,32,64,30,False,62.5,68.9714,96.1,92.2,100,17.2,6.2,0,0,11.3517,1153.8,1.63,2.49,119,0,62.5,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,30,True,82.1875,83.9286,70,65,75,70,77.5,35,20.5426,52.8629,20.9,2.16,6.91,,0,82.2,results/paddleocr+gptoss-dificil/20261022-155321/vision.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,30,False,81.875,83.5714,70,65,75,70,72.5,37.5,22.5461,55.2918,99.7,5.47,19.05,,0,81.9,results/paddleocr+gptoss-dificil/20261022-155321/vision.json

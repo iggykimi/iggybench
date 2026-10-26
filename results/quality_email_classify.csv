@@ -1,0 +1,7 @@
+model,model_name,corpus,emails,count_basis,category_correct,category_accuracy_pct,category_ci95_low_pct,category_ci95_high_pct,urgency_accuracy_pct,both_correct,both_accuracy_pct,ci95_low_pct,ci95_high_pct,latency_p50_ms,latency_p95_ms,emails_per_s,emails_per_s_one_by_one,memory_gib,source
+liquid-d1-3b,Liquid d1-3B,normal,300,from_pct_unique,282,94,90.716,96.1714,95,267,89,84.9543,92.0595,27.8,56,36.7,32.7,5.88,results/d1-3b/20261022-034813/d1.json
+laya-322m,Laya multilingual (322M),normal,300,from_pct_unique,205,68.3333,62.8658,73.3373,67.3333,146,48.6667,43.0633,54.3037,23.3,106.3,885.6,27,8.59,results/d1-3b/20261022-034813/d1.json
+gptoss120b,gpt-oss-120b,normal,300,from_pct_unique,300,100,98.7357,100,96.6667,290,96.6667,93.9738,98.1795,558,1274,51,,,results/d1-3b/20261022-034813/d1.json
+liquid-d1-3b,Liquid d1-3B,hard,240,from_pct_unique,206,85.8333,80.8557,89.6819,100,206,85.8333,80.8557,89.6819,29,58.3,35,31,5.89,results/d1-3b-dificil/20261022-094153/d1.json
+laya-322m,Laya multilingual (322M),hard,240,from_pct_unique,87,36.25,30.4289,42.5044,67.5,69,28.75,23.3941,34.7755,24.4,109.2,600.9,26.7,9.59,results/d1-3b-dificil/20261022-094153/d1.json
+gptoss120b,gpt-oss-120b,hard,240,from_pct_unique,229,95.4167,91.9805,97.4218,99.5833,228,95,91.4651,97.117,661,1620,39,,,results/d1-3b-dificil/20261022-094153/d1.json

@@ -1,0 +1,36 @@
+model,model_name,budget_tokens,set,problems,attempts,answered,correct,count_basis,accuracy_pct,ci95_low_pct,ci95_high_pct,ci95_low_per_problem_pct,ci95_high_per_problem_pct,truncated,wrong_not_truncated,median_completion_tokens,run_minutes,run_tok_s,source
+gptoss120b,gpt-oss-120b,32768,aime2025,30,60,60,50,from_pct_unique,83.3333,71.9681,90.6869,66.4353,92.6636,10,0,11525,9.2,5456.2,results/gptoss120b/20261022-082458/dificil.json
+gptoss120b,gpt-oss-120b,32768,aime2026,30,60,60,54,from_pct_unique,90,79.8503,95.3358,74.3786,96.5401,6,0,9952,9.2,5456.2,results/gptoss120b/20261022-082458/dificil.json
+gptoss120b,gpt-oss-120b,32768,math500,500,500,500,454,from_pct_unique,90.8,87.9461,93.0318,87.9461,93.0318,3,43,1217,9.2,5456.2,results/gptoss120b/20261022-082458/dificil.json
+gptoss120b,gpt-oss-120b,32768,aime_combined,60,120,120,104,from_pct_unique,86.6667,79.4351,91.6235,75.8346,93.086,16,0,,9.2,5456.2,results/gptoss120b/20261022-082458/dificil.json
+qwen27b-fp8,Qwen3.8-27B,32768,aime2025,30,60,60,43,from_pct_unique,71.6667,59.2325,81.4933,53.8269,84.5874,17,0,9382,12.7,3973.6,results/qwen27b-fp8/20261022-094553/dificil.json
+qwen27b-fp8,Qwen3.8-27B,32768,aime2026,30,60,60,42,from_pct_unique,70,57.4911,80.102,52.1239,83.3354,18,0,17178,12.7,3973.6,results/qwen27b-fp8/20261022-094553/dificil.json
+qwen27b-fp8,Qwen3.8-27B,32768,math500,500,500,500,475,from_pct_unique,95,92.7231,96.5906,92.7231,96.5906,4,21,587,12.7,3973.6,results/qwen27b-fp8/20261022-094553/dificil.json
+qwen27b-fp8,Qwen3.8-27B,32768,aime_combined,60,120,120,85,from_pct_unique,70.8333,62.1556,78.2186,58.3597,80.7997,35,0,,12.7,3973.6,results/qwen27b-fp8/20261022-094553/dificil.json
+qwen27b-fp8,Qwen3.8-27B,65536,aime2025,30,60,60,56,from_pct_unique,93.3333,84.0744,97.3772,78.6762,98.1523,4,0,12738,17.1,2484.8,results/qwen27b-fp8/20261022-160248/dificil_64k.json
+qwen27b-fp8,Qwen3.8-27B,65536,aime2026,30,60,60,54,from_pct_unique,90,79.8503,95.3358,74.3786,96.5401,5,1,19461,17.1,2484.8,results/qwen27b-fp8/20261022-160248/dificil_64k.json
+qwen27b-fp8,Qwen3.8-27B,65536,aime_combined,60,120,120,110,from_pct_unique,91.6667,85.3376,95.4107,81.9308,96.388,9,1,,17.1,2484.8,results/qwen27b-fp8/20261022-160248/dificil_64k.json
+qwen38-flash-next,Qwen3.8-Flash-Next,32768,aime2025,30,60,60,53,from_pct_unique,88.3333,77.821,94.2324,72.3233,95.6404,7,0,10835,8.5,5249.7,results/qwen38-flash-next/20261022-073000/dificil.json
+qwen38-flash-next,Qwen3.8-Flash-Next,32768,aime2026,30,60,60,50,from_pct_unique,83.3333,71.9681,90.6869,66.4353,92.6636,10,0,14809,8.5,5249.7,results/qwen38-flash-next/20261022-073000/dificil.json
+qwen38-flash-next,Qwen3.8-Flash-Next,32768,math500,500,500,500,479,from_pct_unique,95.8,93.6648,97.2368,93.6648,97.2368,2,19,571,8.5,5249.7,results/qwen38-flash-next/20261022-073000/dificil.json
+qwen38-flash-next,Qwen3.8-Flash-Next,32768,aime_combined,60,120,120,103,from_pct_unique,85.8333,78.4804,90.9632,74.8556,92.4986,17,0,,8.5,5249.7,results/qwen38-flash-next/20261022-073000/dificil.json
+dsv4-flash,DeepSeek V4 Flash,32768,aime2025,30,60,60,52,from_pct_unique,86.6667,75.8346,93.086,70.3183,94.6904,7,1,4704,10.9,2638.1,results/dsv4-flash/20261022-062829/dificil.json
+dsv4-flash,DeepSeek V4 Flash,32768,aime2026,30,60,60,52,from_pct_unique,86.6667,75.8346,93.086,70.3183,94.6904,8,0,3808,10.9,2638.1,results/dsv4-flash/20261022-062829/dificil.json
+dsv4-flash,DeepSeek V4 Flash,32768,math500,500,500,500,464,from_pct_unique,92.8,90.1931,94.7542,90.1931,94.7542,2,34,444,10.9,2638.1,results/dsv4-flash/20261022-062829/dificil.json
+dsv4-flash,DeepSeek V4 Flash,32768,aime_combined,60,120,120,104,from_pct_unique,86.6667,79.4351,91.6235,75.8346,93.086,15,1,,10.9,2638.1,results/dsv4-flash/20261022-062829/dificil.json
+dsv4-flash,DeepSeek V4 Flash,65536,aime2025,30,60,60,52,detail,86.6667,75.8346,93.086,70.3183,94.6904,8,0,5795,15.9,1960.1,results/dsv4-flash/20261022-212433/dificil_64k_detalle.jsonl
+dsv4-flash,DeepSeek V4 Flash,65536,aime2026,30,60,60,49,detail,81.6667,70.08,89.4423,64.5486,91.5954,10,1,5107,15.9,1960.1,results/dsv4-flash/20261022-212433/dificil_64k_detalle.jsonl
+dsv4-flash,DeepSeek V4 Flash,65536,aime_combined,60,120,120,101,detail,84.1667,76.5905,89.6231,72.9229,91.2986,18,1,5107,15.9,1960.1,results/dsv4-flash/20261022-212433/dificil_64k_detalle.jsonl
+glm53-ssmbf16,GLM-5.3-Flash,32768,aime2025,30,60,60,42,from_pct_unique,70,57.4911,80.102,52.1239,83.3354,18,0,16305,20.2,2705.6,results/glm53-ssmbf16/20261022-103927/dificil.json
+glm53-ssmbf16,GLM-5.3-Flash,32768,aime2026,30,60,60,34,from_pct_unique,56.6667,44.1032,68.4278,39.197,72.6228,26,0,19378,20.2,2705.6,results/glm53-ssmbf16/20261022-103927/dificil.json
+glm53-ssmbf16,GLM-5.3-Flash,32768,math500,500,500,500,464,from_pct_unique,92.8,90.1931,94.7542,90.1931,94.7542,10,26,634,20.2,2705.6,results/glm53-ssmbf16/20261022-103927/dificil.json
+glm53-ssmbf16,GLM-5.3-Flash,32768,aime_combined,60,120,120,76,from_pct_unique,63.3333,54.4223,71.4172,50.6828,74.3793,44,0,,20.2,2705.6,results/glm53-ssmbf16/20261022-103927/dificil.json
+glm53-ssmbf16,GLM-5.3-Flash,65536,aime2025,30,60,60,43,from_pct_unique,71.6667,59.2325,81.4933,53.8269,84.5874,17,0,23572,29.5,1994.7,results/glm53-ssmbf16/20261022-163211/dificil_64k.json
+glm53-ssmbf16,GLM-5.3-Flash,65536,aime2026,30,60,60,40,from_pct_unique,66.6667,54.0566,77.2709,48.7797,80.7697,20,0,18287,29.5,1994.7,results/glm53-ssmbf16/20261022-163211/dificil_64k.json
+glm53-ssmbf16,GLM-5.3-Flash,65536,aime_combined,60,120,120,83,from_pct_unique,69.1667,60.4168,76.7274,56.6265,79.4001,37,0,,29.5,1994.7,results/glm53-ssmbf16/20261022-163211/dificil_64k.json
+qwen27b-fp8-dflash,Qwen3.8-27B + DFlash2,65536,aime2025,30,60,60,54,detail,90,79.8503,95.3358,74.3786,96.5401,4,2,15539,9.2,4333.3,results/qwen27b-fp8-dflash/20261022-204707/dificil_64k_detalle.jsonl
+qwen27b-fp8-dflash,Qwen3.8-27B + DFlash2,65536,aime2026,30,60,60,54,detail,90,79.8503,95.3358,74.3786,96.5401,5,1,17835,9.2,4333.3,results/qwen27b-fp8-dflash/20261022-204707/dificil_64k_detalle.jsonl
+qwen27b-fp8-dflash,Qwen3.8-27B + DFlash2,65536,aime_combined,60,120,120,108,detail,90,83.3317,94.1867,79.8503,95.3358,9,3,16154,9.2,4333.3,results/qwen27b-fp8-dflash/20261022-204707/dificil_64k_detalle.jsonl
+flint-sglang,Recursive Flint,32768,aime2025,30,60,60,48,detail,80,68.218,88.1716,62.694,90.495,10,2,9873,8,2967.4,results/flint-sglang/20261022-230435/dificil_detalle.jsonl
+flint-sglang,Recursive Flint,32768,aime2026,30,60,60,52,detail,86.6667,75.8346,93.086,70.3183,94.6904,6,2,7893,8,2967.4,results/flint-sglang/20261022-230435/dificil_detalle.jsonl
+flint-sglang,Recursive Flint,32768,aime_combined,60,120,120,100,detail,83.3333,75.6546,88.9441,71.9681,90.6869,16,4,7893,8,2967.4,results/flint-sglang/20261022-230435/dificil_detalle.jsonl

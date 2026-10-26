@@ -1,0 +1,79 @@
+model,model_name,category,parallel,live,questions,answered,correct,count_basis,accuracy_pct,ci95_low_pct,ci95_high_pct,client_value_pct,source
+gptoss120b,gpt-oss-120b,simple,False,False,400,400,349,from_pct_unique,87.25,83.6234,90.1679,87.2,results/gptoss120b/20261022-082458/bfcl.json
+gptoss120b,gpt-oss-120b,multiple,False,False,200,200,172,from_pct_unique,86,80.51,90.1331,86,results/gptoss120b/20261022-082458/bfcl.json
+gptoss120b,gpt-oss-120b,parallel,True,False,200,200,0,from_pct_unique,0,0,1.8846,0,results/gptoss120b/20261022-082458/bfcl.json
+gptoss120b,gpt-oss-120b,parallel_multiple,True,False,200,200,0,from_pct_unique,0,0,1.8846,0,results/gptoss120b/20261022-082458/bfcl.json
+gptoss120b,gpt-oss-120b,irrelevance,False,False,240,240,206,from_pct_unique,85.8333,80.8557,89.6819,85.8,results/gptoss120b/20261022-082458/bfcl.json
+gptoss120b,gpt-oss-120b,live_simple,False,True,258,258,203,from_pct_unique,78.6822,73.2828,83.2399,78.7,results/gptoss120b/20261022-082458/bfcl.json
+gptoss120b,gpt-oss-120b,live_multiple,False,True,1052,1052,777,from_pct_unique,73.8593,71.1206,76.4244,73.9,results/gptoss120b/20261022-082458/bfcl.json
+gptoss120b,gpt-oss-120b,live_parallel,True,True,16,16,0,from_pct_unique,0,0,19.3613,0,results/gptoss120b/20261022-082458/bfcl.json
+gptoss120b,gpt-oss-120b,live_parallel_multiple,True,True,24,24,0,from_pct_unique,0,0,13.7981,0,results/gptoss120b/20261022-082458/bfcl.json
+gptoss120b,gpt-oss-120b,live_irrelevance,False,True,239,239,197,from_pct_unique,82.4268,77.0995,86.7281,82.4,results/gptoss120b/20261022-082458/bfcl.json
+gptoss120b,gpt-oss-120b,mean_10_categories,,,,,,from_pct_unique,49.4052,,,49.4,results/gptoss120b/20261022-082458/bfcl.json
+gptoss120b,gpt-oss-120b,mean_6_non_parallel,,,2389,,,from_pct_unique,82.3419,80.6052,84.0786,,results/gptoss120b/20261022-082458/bfcl.json
+gptoss120b,gpt-oss-120b,irrelevance_pooled,,,479,479,403,from_pct_unique,84.1336,80.5918,87.1323,,results/gptoss120b/20261022-082458/bfcl.json
+qwen27b-fp8,Qwen3.8-27B,simple,False,False,400,400,371,from_pct_unique,92.75,89.7817,94.905,92.8,results/qwen27b-fp8/20261022-094553/bfcl.json
+qwen27b-fp8,Qwen3.8-27B,multiple,False,False,200,200,185,from_pct_unique,92.5,87.9955,95.4025,92.5,results/qwen27b-fp8/20261022-094553/bfcl.json
+qwen27b-fp8,Qwen3.8-27B,parallel,True,False,200,200,186,from_pct_unique,93,88.5944,95.7848,93,results/qwen27b-fp8/20261022-094553/bfcl.json
+qwen27b-fp8,Qwen3.8-27B,parallel_multiple,True,False,200,200,169,from_pct_unique,84.5,78.8392,88.8604,84.5,results/qwen27b-fp8/20261022-094553/bfcl.json
+qwen27b-fp8,Qwen3.8-27B,irrelevance,False,False,240,240,194,from_pct_unique,80.8333,75.3832,85.3119,80.8,results/qwen27b-fp8/20261022-094553/bfcl.json
+qwen27b-fp8,Qwen3.8-27B,live_simple,False,True,258,258,220,from_pct_unique,85.2713,80.4302,89.0775,85.3,results/qwen27b-fp8/20261022-094553/bfcl.json
+qwen27b-fp8,Qwen3.8-27B,live_multiple,False,True,1052,1052,834,from_pct_unique,79.2776,76.7239,81.6182,79.3,results/qwen27b-fp8/20261022-094553/bfcl.json
+qwen27b-fp8,Qwen3.8-27B,live_parallel,True,True,16,16,13,from_pct_unique,81.25,56.9906,93.4085,81.2,results/qwen27b-fp8/20261022-094553/bfcl.json
+qwen27b-fp8,Qwen3.8-27B,live_parallel_multiple,True,True,24,24,17,from_pct_unique,70.8333,50.8319,85.0855,70.8,results/qwen27b-fp8/20261022-094553/bfcl.json
+qwen27b-fp8,Qwen3.8-27B,live_irrelevance,False,True,239,239,180,from_pct_unique,75.3138,69.4754,80.3514,75.3,results/qwen27b-fp8/20261022-094553/bfcl.json
+qwen27b-fp8,Qwen3.8-27B,mean_10_categories,,,,,,from_pct_unique,83.5529,,,83.5,results/qwen27b-fp8/20261022-094553/bfcl.json
+qwen27b-fp8,Qwen3.8-27B,mean_6_non_parallel,,,2389,,,from_pct_unique,84.3243,82.6646,85.984,,results/qwen27b-fp8/20261022-094553/bfcl.json
+qwen27b-fp8,Qwen3.8-27B,irrelevance_pooled,,,479,479,374,from_pct_unique,78.0793,74.159,81.5529,,results/qwen27b-fp8/20261022-094553/bfcl.json
+qwen38-flash-next,Qwen3.8-Flash-Next,simple,False,False,400,400,373,from_pct_unique,93.25,90.3573,95.3199,93.2,results/qwen38-flash-next/20261022-073000/bfcl.json
+qwen38-flash-next,Qwen3.8-Flash-Next,multiple,False,False,200,200,181,from_pct_unique,90.5,85.6397,93.8337,90.5,results/qwen38-flash-next/20261022-073000/bfcl.json
+qwen38-flash-next,Qwen3.8-Flash-Next,parallel,True,False,200,200,177,from_pct_unique,88.5,83.3352,92.2137,88.5,results/qwen38-flash-next/20261022-073000/bfcl.json
+qwen38-flash-next,Qwen3.8-Flash-Next,parallel_multiple,True,False,200,200,160,from_pct_unique,80,73.9144,84.9549,80,results/qwen38-flash-next/20261022-073000/bfcl.json
+qwen38-flash-next,Qwen3.8-Flash-Next,irrelevance,False,False,240,240,184,from_pct_unique,76.6667,70.9212,81.5719,76.7,results/qwen38-flash-next/20261022-073000/bfcl.json
+qwen38-flash-next,Qwen3.8-Flash-Next,live_simple,False,True,258,258,204,from_pct_unique,79.0698,73.6973,83.5892,79.1,results/qwen38-flash-next/20261022-073000/bfcl.json
+qwen38-flash-next,Qwen3.8-Flash-Next,live_multiple,False,True,1052,1052,787,from_pct_unique,74.8099,72.0996,77.3397,74.8,results/qwen38-flash-next/20261022-073000/bfcl.json
+qwen38-flash-next,Qwen3.8-Flash-Next,live_parallel,True,True,16,16,12,from_pct_unique,75,50.5012,89.8181,75,results/qwen38-flash-next/20261022-073000/bfcl.json
+qwen38-flash-next,Qwen3.8-Flash-Next,live_parallel_multiple,True,True,24,24,12,from_pct_unique,50,31.4271,68.5729,50,results/qwen38-flash-next/20261022-073000/bfcl.json
+qwen38-flash-next,Qwen3.8-Flash-Next,live_irrelevance,False,True,239,239,174,from_pct_unique,72.8033,66.8344,78.0509,72.8,results/qwen38-flash-next/20261022-073000/bfcl.json
+qwen38-flash-next,Qwen3.8-Flash-Next,mean_10_categories,,,,,,from_pct_unique,78.06,,,78.1,results/qwen38-flash-next/20261022-073000/bfcl.json
+qwen38-flash-next,Qwen3.8-Flash-Next,mean_6_non_parallel,,,2389,,,from_pct_unique,81.1833,79.3995,82.967,,results/qwen38-flash-next/20261022-073000/bfcl.json
+qwen38-flash-next,Qwen3.8-Flash-Next,irrelevance_pooled,,,479,479,358,from_pct_unique,74.739,70.6615,78.4229,,results/qwen38-flash-next/20261022-073000/bfcl.json
+dsv4-flash,DeepSeek V4 Flash,simple,False,False,400,400,376,from_pct_unique,94,91.2277,95.9352,94,results/dsv4-flash/20261022-062829/bfcl.json
+dsv4-flash,DeepSeek V4 Flash,multiple,False,False,200,200,190,from_pct_unique,95,91.0421,97.2618,95,results/dsv4-flash/20261022-062829/bfcl.json
+dsv4-flash,DeepSeek V4 Flash,parallel,True,False,200,200,176,from_pct_unique,88,82.7656,91.8021,88,results/dsv4-flash/20261022-062829/bfcl.json
+dsv4-flash,DeepSeek V4 Flash,parallel_multiple,True,False,200,200,176,from_pct_unique,88,82.7656,91.8021,88,results/dsv4-flash/20261022-062829/bfcl.json
+dsv4-flash,DeepSeek V4 Flash,irrelevance,False,False,240,240,164,from_pct_unique,68.3333,62.1986,73.8904,68.3,results/dsv4-flash/20261022-062829/bfcl.json
+dsv4-flash,DeepSeek V4 Flash,live_simple,False,True,258,258,218,from_pct_unique,84.4961,79.5769,88.4032,84.5,results/dsv4-flash/20261022-062829/bfcl.json
+dsv4-flash,DeepSeek V4 Flash,live_multiple,False,True,1052,1052,802,from_pct_unique,76.2357,73.5711,78.7095,76.2,results/dsv4-flash/20261022-062829/bfcl.json
+dsv4-flash,DeepSeek V4 Flash,live_parallel,True,True,16,16,14,from_pct_unique,87.5,63.9767,96.5023,87.5,results/dsv4-flash/20261022-062829/bfcl.json
+dsv4-flash,DeepSeek V4 Flash,live_parallel_multiple,True,True,24,24,15,from_pct_unique,62.5,42.7096,78.8409,62.5,results/dsv4-flash/20261022-062829/bfcl.json
+dsv4-flash,DeepSeek V4 Flash,live_irrelevance,False,True,239,239,161,from_pct_unique,67.364,61.1856,72.9931,67.4,results/dsv4-flash/20261022-062829/bfcl.json
+dsv4-flash,DeepSeek V4 Flash,mean_10_categories,,,,,,from_pct_unique,81.1429,,,81.1,results/dsv4-flash/20261022-062829/bfcl.json
+dsv4-flash,DeepSeek V4 Flash,mean_6_non_parallel,,,2389,,,from_pct_unique,80.9049,79.1518,82.6579,,results/dsv4-flash/20261022-062829/bfcl.json
+dsv4-flash,DeepSeek V4 Flash,irrelevance_pooled,,,479,479,325,from_pct_unique,67.8497,63.5392,71.8761,,results/dsv4-flash/20261022-062829/bfcl.json
+glm53-ssmbf16,GLM-5.3-Flash,simple,False,False,400,400,379,from_pct_unique,94.75,92.1077,96.5409,94.8,results/glm53-ssmbf16/20261022-103927/bfcl.json
+glm53-ssmbf16,GLM-5.3-Flash,multiple,False,False,200,200,190,from_pct_unique,95,91.0421,97.2618,95,results/glm53-ssmbf16/20261022-103927/bfcl.json
+glm53-ssmbf16,GLM-5.3-Flash,parallel,True,False,200,200,179,from_pct_unique,89.5,84.4819,93.0293,89.5,results/glm53-ssmbf16/20261022-103927/bfcl.json
+glm53-ssmbf16,GLM-5.3-Flash,parallel_multiple,True,False,200,200,174,from_pct_unique,87,81.6335,90.9719,87,results/glm53-ssmbf16/20261022-103927/bfcl.json
+glm53-ssmbf16,GLM-5.3-Flash,irrelevance,False,False,240,240,167,from_pct_unique,69.5833,63.4921,75.0575,69.6,results/glm53-ssmbf16/20261022-103927/bfcl.json
+glm53-ssmbf16,GLM-5.3-Flash,live_simple,False,True,258,258,229,from_pct_unique,88.7597,84.3231,92.059,88.8,results/glm53-ssmbf16/20261022-103927/bfcl.json
+glm53-ssmbf16,GLM-5.3-Flash,live_multiple,False,True,1052,1052,821,from_pct_unique,78.0418,75.4407,80.4389,78,results/glm53-ssmbf16/20261022-103927/bfcl.json
+glm53-ssmbf16,GLM-5.3-Flash,live_parallel,True,True,16,16,12,from_pct_unique,75,50.5012,89.8181,75,results/glm53-ssmbf16/20261022-103927/bfcl.json
+glm53-ssmbf16,GLM-5.3-Flash,live_parallel_multiple,True,True,24,24,16,from_pct_unique,66.6667,46.706,82.028,66.7,results/glm53-ssmbf16/20261022-103927/bfcl.json
+glm53-ssmbf16,GLM-5.3-Flash,live_irrelevance,False,True,239,239,168,from_pct_unique,70.2929,64.2154,75.7283,70.3,results/glm53-ssmbf16/20261022-103927/bfcl.json
+glm53-ssmbf16,GLM-5.3-Flash,mean_10_categories,,,,,,from_pct_unique,81.4594,,,81.5,results/glm53-ssmbf16/20261022-103927/bfcl.json
+glm53-ssmbf16,GLM-5.3-Flash,mean_6_non_parallel,,,2389,,,from_pct_unique,82.738,81.0509,84.425,,results/glm53-ssmbf16/20261022-103927/bfcl.json
+glm53-ssmbf16,GLM-5.3-Flash,irrelevance_pooled,,,479,479,335,from_pct_unique,69.9374,65.6857,73.8718,,results/glm53-ssmbf16/20261022-103927/bfcl.json
+nemotron35-super-vl,Nemotron 3.5 Super VL,simple,False,False,400,400,377,detail,94.25,91.5199,96.1383,94.2,results/nemotron35-super-vl/20261022-220143/bfcl_detalle.jsonl
+nemotron35-super-vl,Nemotron 3.5 Super VL,multiple,False,False,200,200,189,detail,94.5,90.4212,96.9015,94.5,results/nemotron35-super-vl/20261022-220143/bfcl_detalle.jsonl
+nemotron35-super-vl,Nemotron 3.5 Super VL,parallel,True,False,200,200,167,detail,83.5,77.7341,88.0032,83.5,results/nemotron35-super-vl/20261022-220143/bfcl_detalle.jsonl
+nemotron35-super-vl,Nemotron 3.5 Super VL,parallel_multiple,True,False,200,200,163,detail,81.5,75.5428,86.2699,81.5,results/nemotron35-super-vl/20261022-220143/bfcl_detalle.jsonl
+nemotron35-super-vl,Nemotron 3.5 Super VL,irrelevance,False,False,240,240,201,detail,83.75,78.5574,87.8791,83.8,results/nemotron35-super-vl/20261022-220143/bfcl_detalle.jsonl
+nemotron35-super-vl,Nemotron 3.5 Super VL,live_simple,False,True,258,258,220,detail,85.2713,80.4302,89.0775,85.3,results/nemotron35-super-vl/20261022-220143/bfcl_detalle.jsonl
+nemotron35-super-vl,Nemotron 3.5 Super VL,live_multiple,False,True,1052,1052,846,detail,80.4183,77.9114,82.7038,80.4,results/nemotron35-super-vl/20261022-220143/bfcl_detalle.jsonl
+nemotron35-super-vl,Nemotron 3.5 Super VL,live_parallel,True,True,16,16,13,detail,81.25,56.9906,93.4085,81.2,results/nemotron35-super-vl/20261022-220143/bfcl_detalle.jsonl
+nemotron35-super-vl,Nemotron 3.5 Super VL,live_parallel_multiple,True,True,24,24,16,detail,66.6667,46.706,82.028,66.7,results/nemotron35-super-vl/20261022-220143/bfcl_detalle.jsonl
+nemotron35-super-vl,Nemotron 3.5 Super VL,live_irrelevance,False,True,239,239,187,detail,78.2427,72.5873,83.0045,78.2,results/nemotron35-super-vl/20261022-220143/bfcl_detalle.jsonl
+nemotron35-super-vl,Nemotron 3.5 Super VL,mean_10_categories,,,,,,detail,82.9349,,,82.9,results/nemotron35-super-vl/20261022-220143/bfcl_detalle.jsonl
+nemotron35-super-vl,Nemotron 3.5 Super VL,mean_6_non_parallel,,,2389,,,detail,86.072,84.5016,87.6425,,results/nemotron35-super-vl/20261022-220143/bfcl_detalle.jsonl
+nemotron35-super-vl,Nemotron 3.5 Super VL,irrelevance_pooled,,,479,479,388,detail,81.0021,77.2477,84.2632,,results/nemotron35-super-vl/20261022-220143/bfcl_detalle.jsonl

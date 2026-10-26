@@ -1,0 +1,10 @@
+model,model_name,context_target_tokens,depth,context_tokens,found,seconds,tokens_per_s,source
+dsv4-flash,DeepSeek V4 Flash,128000,0.1,128306,True,4.1,31294.1,results/dsv4-flash-aguja/20261022-212009/aguja.json
+dsv4-flash,DeepSeek V4 Flash,128000,0.5,128009,True,4.2,30478.3,results/dsv4-flash-aguja/20261022-212009/aguja.json
+dsv4-flash,DeepSeek V4 Flash,128000,0.9,128111,True,4.1,31246.6,results/dsv4-flash-aguja/20261022-212009/aguja.json
+dsv4-flash,DeepSeek V4 Flash,512000,0.1,513232,True,21.6,23760.7,results/dsv4-flash-aguja/20261022-212009/aguja.json
+dsv4-flash,DeepSeek V4 Flash,512000,0.5,513160,True,21.6,23757.4,results/dsv4-flash-aguja/20261022-212009/aguja.json
+dsv4-flash,DeepSeek V4 Flash,512000,0.9,513068,True,21.6,23753.1,results/dsv4-flash-aguja/20261022-212009/aguja.json
+dsv4-flash,DeepSeek V4 Flash,1000000,0.1,1002983,True,59.6,16828.6,results/dsv4-flash-aguja/20261022-212009/aguja.json
+dsv4-flash,DeepSeek V4 Flash,1000000,0.5,1002191,True,58.7,17073.1,results/dsv4-flash-aguja/20261022-212009/aguja.json
+dsv4-flash,DeepSeek V4 Flash,1000000,0.9,1002326,True,58.6,17104.5,results/dsv4-flash-aguja/20261022-212009/aguja.json

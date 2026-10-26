@@ -1,0 +1,11 @@
+model_a,model_b,diff_pp,a_right_b_wrong,a_wrong_b_right,p_mcnemar_exact,p_holm,significant_holm
+gptoss120b,qwen27b-fp8,-0.530705,14,21,0.310505,1,False
+gptoss120b,qwen38-flash-next,-0.833965,17,28,0.135156,0.810939,False
+gptoss120b,dsv4-flash,-0.985595,12,25,0.047031,0.376248,False
+gptoss120b,glm53-ssmbf16,0.60652,30,22,0.33175,1,False
+qwen27b-fp8,qwen38-flash-next,-0.30326,16,20,0.617719,1,False
+qwen27b-fp8,dsv4-flash,-0.45489,17,23,0.429591,1,False
+qwen27b-fp8,glm53-ssmbf16,1.13723,34,19,0.0534388,0.376248,False
+qwen38-flash-next,dsv4-flash,-0.15163,18,20,0.871415,1,False
+qwen38-flash-next,glm53-ssmbf16,1.44049,37,18,0.0144538,0.130085,False
+dsv4-flash,glm53-ssmbf16,1.59212,36,15,0.00460131,0.0460131,True

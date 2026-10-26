@@ -1,0 +1,7 @@
+model,model_name,last_pass_sessions,first_fail_sessions,max_tested_sessions,decode_tok_s_p50_at_4,source
+gptoss120b,gpt-oss-120b,64,80,96,294.4,results/gptoss120b/20261022-001945/sesiones_base.json;results/gptoss120b/20261022-082458/sesiones_fino.json;results/gptoss120b/20261022-152230/sesiones_fino.json
+qwen27b-fp8,Qwen3.8-27B,48,64,64,99.2,results/qwen27b-fp8/20261022-014242/sesiones_base.json;results/qwen27b-fp8/20261022-094553/sesiones_fino.json
+qwen38-flash-next,Qwen3.8-Flash-Next,64,80,96,454.8,results/qwen38-flash-next/20261021-220809/sesiones_base.json;results/qwen38-flash-next/20261022-073000/sesiones_fino.json;results/qwen38-flash-next/20261022-150257/sesiones_fino.json
+dsv4-flash,DeepSeek V4 Flash,80,96,128,138.9,results/dsv4-flash/20261021-195719/sesiones_base.json;results/dsv4-flash/20261022-062829/sesiones_fino.json;results/dsv4-flash/20261022-144115/sesiones_fino.json
+glm53-ssmbf16,GLM-5.3-Flash,32,48,64,122.9,results/glm53-ssmbf16/20261022-044720/sesiones_base.json;results/glm53-ssmbf16/20261022-103927/sesiones_fino.json
+qwen27b-fp8-dflash,Qwen3.8-27B + DFlash2,48,,48,521.8,results/qwen27b-fp8-dflash/20261022-203714/sesiones_base.json

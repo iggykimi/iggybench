@@ -1,0 +1,289 @@
+set,pipeline,model,model_name,concurrency,requests,reference_level,field,accuracy_pct,source
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,16,False,numero,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,16,False,fecha,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,16,False,proveedor,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,16,False,nif_proveedor,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,16,False,base_imponible,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,16,False,iva_pct,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,16,False,total,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,16,False,num_lineas,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,4,16,False,numero,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,4,16,False,fecha,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,4,16,False,proveedor,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,4,16,False,nif_proveedor,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,4,16,False,base_imponible,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,4,16,False,iva_pct,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,4,16,False,total,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,4,16,False,num_lineas,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,16,32,False,numero,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,16,32,False,fecha,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,16,32,False,proveedor,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,16,32,False,nif_proveedor,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,16,32,False,base_imponible,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,16,32,False,iva_pct,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,16,32,False,total,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,16,32,False,num_lineas,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,True,numero,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,True,fecha,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,True,proveedor,98.4,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,True,nif_proveedor,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,True,base_imponible,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,True,iva_pct,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,True,total,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,True,num_lineas,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,64,128,False,numero,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,64,128,False,fecha,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,64,128,False,proveedor,99.2,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,64,128,False,nif_proveedor,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,64,128,False,base_imponible,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,64,128,False,iva_pct,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,64,128,False,total,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,64,128,False,num_lineas,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,128,256,False,numero,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,128,256,False,fecha,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,128,256,False,proveedor,98.8,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,128,256,False,nif_proveedor,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,128,256,False,base_imponible,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,128,256,False,iva_pct,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,128,256,False,total,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen27b-fp8,Qwen3.8-27B,128,256,False,num_lineas,100,results/qwen27b-fp8/20261022-033518/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,16,False,numero,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,16,False,fecha,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,16,False,proveedor,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,16,False,nif_proveedor,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,16,False,base_imponible,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,16,False,iva_pct,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,16,False,total,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,16,False,num_lineas,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,4,16,False,numero,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,4,16,False,fecha,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,4,16,False,proveedor,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,4,16,False,nif_proveedor,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,4,16,False,base_imponible,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,4,16,False,iva_pct,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,4,16,False,total,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,4,16,False,num_lineas,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,16,32,False,numero,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,16,32,False,fecha,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,16,32,False,proveedor,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,16,32,False,nif_proveedor,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,16,32,False,base_imponible,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,16,32,False,iva_pct,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,16,32,False,total,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,16,32,False,num_lineas,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,True,numero,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,True,fecha,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,True,proveedor,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,True,nif_proveedor,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,True,base_imponible,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,True,iva_pct,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,True,total,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,True,num_lineas,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,64,128,False,numero,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,64,128,False,fecha,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,64,128,False,proveedor,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,64,128,False,nif_proveedor,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,64,128,False,base_imponible,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,64,128,False,iva_pct,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,64,128,False,total,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,64,128,False,num_lineas,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,128,256,False,numero,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,128,256,False,fecha,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,128,256,False,proveedor,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,128,256,False,nif_proveedor,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,128,256,False,base_imponible,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,128,256,False,iva_pct,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,128,256,False,total,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,128,256,False,num_lineas,100,results/qwen38-flash-next/20261021-220809/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,16,False,numero,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,16,False,fecha,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,16,False,proveedor,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,16,False,nif_proveedor,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,16,False,base_imponible,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,16,False,iva_pct,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,16,False,total,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,16,False,num_lineas,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,4,16,False,numero,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,4,16,False,fecha,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,4,16,False,proveedor,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,4,16,False,nif_proveedor,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,4,16,False,base_imponible,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,4,16,False,iva_pct,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,4,16,False,total,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,4,16,False,num_lineas,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,16,32,False,numero,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,16,32,False,fecha,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,16,32,False,proveedor,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,16,32,False,nif_proveedor,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,16,32,False,base_imponible,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,16,32,False,iva_pct,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,16,32,False,total,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,16,32,False,num_lineas,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,True,numero,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,True,fecha,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,True,proveedor,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,True,nif_proveedor,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,True,base_imponible,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,True,iva_pct,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,True,total,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,True,num_lineas,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,64,128,False,numero,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,64,128,False,fecha,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,64,128,False,proveedor,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,64,128,False,nif_proveedor,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,64,128,False,base_imponible,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,64,128,False,iva_pct,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,64,128,False,total,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,64,128,False,num_lineas,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,128,256,False,numero,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,128,256,False,fecha,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,128,256,False,proveedor,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,128,256,False,nif_proveedor,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,128,256,False,base_imponible,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,128,256,False,iva_pct,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,128,256,False,total,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,128,256,False,num_lineas,100,results/glm53-ssmbf16/20261022-044720/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,True,numero,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,True,fecha,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,True,proveedor,95,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,True,nif_proveedor,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,True,base_imponible,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,True,iva_pct,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,True,total,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,True,num_lineas,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,False,numero,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,False,fecha,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,False,proveedor,95,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,False,nif_proveedor,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,False,base_imponible,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,False,iva_pct,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,False,total,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,False,num_lineas,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,32,64,False,numero,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,32,64,False,fecha,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,32,64,False,proveedor,93.8,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,32,64,False,nif_proveedor,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,32,64,False,base_imponible,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,32,64,False,iva_pct,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,32,64,False,total,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,ocr+llm,paddleocr+gptoss,PaddleOCR-VL 1.6 + gpt-oss-120b,32,64,False,num_lineas,100,results/paddleocr+gptoss/20261022-034624/vision.json
+clean,vision_llm_shared_gpu,plataforma-docs,"Qwen3.8-27B (shared GPU, 33 % memory)",8,2687,True,numero,100,results/plataforma-docs/20261022-041914/vision.json
+clean,vision_llm_shared_gpu,plataforma-docs,"Qwen3.8-27B (shared GPU, 33 % memory)",8,2687,True,fecha,99.9,results/plataforma-docs/20261022-041914/vision.json
+clean,vision_llm_shared_gpu,plataforma-docs,"Qwen3.8-27B (shared GPU, 33 % memory)",8,2687,True,proveedor,97.8,results/plataforma-docs/20261022-041914/vision.json
+clean,vision_llm_shared_gpu,plataforma-docs,"Qwen3.8-27B (shared GPU, 33 % memory)",8,2687,True,nif_proveedor,100,results/plataforma-docs/20261022-041914/vision.json
+clean,vision_llm_shared_gpu,plataforma-docs,"Qwen3.8-27B (shared GPU, 33 % memory)",8,2687,True,base_imponible,100,results/plataforma-docs/20261022-041914/vision.json
+clean,vision_llm_shared_gpu,plataforma-docs,"Qwen3.8-27B (shared GPU, 33 % memory)",8,2687,True,iva_pct,100,results/plataforma-docs/20261022-041914/vision.json
+clean,vision_llm_shared_gpu,plataforma-docs,"Qwen3.8-27B (shared GPU, 33 % memory)",8,2687,True,total,100,results/plataforma-docs/20261022-041914/vision.json
+clean,vision_llm_shared_gpu,plataforma-docs,"Qwen3.8-27B (shared GPU, 33 % memory)",8,2687,True,num_lineas,100,results/plataforma-docs/20261022-041914/vision.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,30,True,numero,93.3,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,30,True,fecha,93.3,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,30,True,proveedor,100,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,30,True,nif_proveedor,86.7,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,30,True,base_imponible,100,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,30,True,iva_pct,100,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,30,True,total,100,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,1,30,True,num_lineas,70,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,8,30,False,numero,93.3,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,8,30,False,fecha,93.3,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,8,30,False,proveedor,100,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,8,30,False,nif_proveedor,86.7,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,8,30,False,base_imponible,100,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,8,30,False,iva_pct,100,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,8,30,False,total,100,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,8,30,False,num_lineas,73.3,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,False,numero,93.8,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,False,fecha,92.2,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,False,proveedor,100,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,False,nif_proveedor,85.9,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,False,base_imponible,100,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,False,iva_pct,100,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,False,total,100,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen27b-fp8,Qwen3.8-27B,32,64,False,num_lineas,70.3,results/qwen27b-fp8/20261022-155948/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,30,True,numero,100,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,30,True,fecha,96.7,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,30,True,proveedor,96.7,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,30,True,nif_proveedor,70,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,30,True,base_imponible,100,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,30,True,iva_pct,100,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,30,True,total,96.7,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,1,30,True,num_lineas,50,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,8,30,False,numero,96.7,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,8,30,False,fecha,100,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,8,30,False,proveedor,96.7,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,8,30,False,nif_proveedor,70,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,8,30,False,base_imponible,100,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,8,30,False,iva_pct,100,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,8,30,False,total,96.7,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,8,30,False,num_lineas,56.7,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,False,numero,98.4,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,False,fecha,96.9,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,False,proveedor,96.9,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,False,nif_proveedor,70.3,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,False,base_imponible,100,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,False,iva_pct,100,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,False,total,96.9,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,qwen38-flash-next,Qwen3.8-Flash-Next,32,64,False,num_lineas,64.1,results/qwen38-flash-next/20261022-150257/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,30,True,numero,93.3,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,30,True,fecha,93.3,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,30,True,proveedor,96.7,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,30,True,nif_proveedor,83.3,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,30,True,base_imponible,96.7,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,30,True,iva_pct,96.7,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,30,True,total,96.7,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,1,30,True,num_lineas,93.3,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,8,30,False,numero,90,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,8,30,False,fecha,90,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,8,30,False,proveedor,93.3,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,8,30,False,nif_proveedor,80,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,8,30,False,base_imponible,93.3,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,8,30,False,iva_pct,93.3,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,8,30,False,total,93.3,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,8,30,False,num_lineas,90,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,False,numero,89.1,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,False,fecha,90.6,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,False,proveedor,95.3,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,False,nif_proveedor,84.4,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,False,base_imponible,95.3,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,False,iva_pct,95.3,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,False,total,95.3,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,glm53-ssmbf16,GLM-5.3-Flash,32,64,False,num_lineas,93.8,results/glm53-ssmbf16/20261022-163211/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,1,30,True,numero,83.3,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,1,30,True,fecha,70,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,1,30,True,proveedor,36.7,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,1,30,True,nif_proveedor,20,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,1,30,True,base_imponible,93.3,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,1,30,True,iva_pct,100,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,1,30,True,total,100,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,1,30,True,num_lineas,3.3,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,8,30,False,numero,83.3,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,8,30,False,fecha,70,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,8,30,False,proveedor,26.7,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,8,30,False,nif_proveedor,20,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,8,30,False,base_imponible,93.3,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,8,30,False,iva_pct,100,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,8,30,False,total,100,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,8,30,False,num_lineas,3.3,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,32,64,False,numero,84.4,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,32,64,False,fecha,68.8,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,32,64,False,proveedor,31.2,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,32,64,False,nif_proveedor,17.2,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,32,64,False,base_imponible,92.2,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,32,64,False,iva_pct,100,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,32,64,False,total,100,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,vision_llm,nemotron35-super-vl,Nemotron 3.5 Super VL,32,64,False,num_lineas,6.2,results/nemotron35-super-vl/20261022-220143/vision_dificil.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,True,numero,95,results/paddleocr+gptoss-dificil/20261022-155321/vision.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,True,fecha,100,results/paddleocr+gptoss-dificil/20261022-155321/vision.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,True,proveedor,95,results/paddleocr+gptoss-dificil/20261022-155321/vision.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,True,nif_proveedor,70,results/paddleocr+gptoss-dificil/20261022-155321/vision.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,True,base_imponible,65,results/paddleocr+gptoss-dificil/20261022-155321/vision.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,True,iva_pct,80,results/paddleocr+gptoss-dificil/20261022-155321/vision.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,True,total,75,results/paddleocr+gptoss-dificil/20261022-155321/vision.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,1,40,True,num_lineas,77.5,results/paddleocr+gptoss-dificil/20261022-155321/vision.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,False,numero,95,results/paddleocr+gptoss-dificil/20261022-155321/vision.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,False,fecha,100,results/paddleocr+gptoss-dificil/20261022-155321/vision.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,False,proveedor,95,results/paddleocr+gptoss-dificil/20261022-155321/vision.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,False,nif_proveedor,70,results/paddleocr+gptoss-dificil/20261022-155321/vision.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,False,base_imponible,65,results/paddleocr+gptoss-dificil/20261022-155321/vision.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,False,iva_pct,82.5,results/paddleocr+gptoss-dificil/20261022-155321/vision.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,False,total,75,results/paddleocr+gptoss-dificil/20261022-155321/vision.json
+degraded,ocr+llm,paddleocr+gptoss-dificil,PaddleOCR-VL 1.6 + gpt-oss-120b,16,40,False,num_lineas,72.5,results/paddleocr+gptoss-dificil/20261022-155321/vision.json

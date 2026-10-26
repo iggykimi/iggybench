@@ -1,0 +1,38 @@
+model,model_name,grid,sessions,turns,errors,seconds,context_mean_tokens,context_max_tokens,ttft_first_turn_p50_s,ttft_p50_s,ttft_p95_s,prefix_cache_pct,decode_tok_s_p50,decode_tok_s_p5,run,source,meets_slo
+dsv4-flash,DeepSeek V4 Flash,base,4,56,0,128.7,60074,79978,3,0.39,0.56,96.2,138.9,99,20261021-195719,results/dsv4-flash/20261021-195719/sesiones_base.json,True
+dsv4-flash,DeepSeek V4 Flash,base,8,112,0,141.6,59166,92630,1.97,0.4,0.67,95.7,107.2,67.9,20261021-195719,results/dsv4-flash/20261021-195719/sesiones_base.json,True
+dsv4-flash,DeepSeek V4 Flash,base,16,224,0,184.8,56153,79296,3.64,0.47,0.77,96.4,67.9,38,20261021-195719,results/dsv4-flash/20261021-195719/sesiones_base.json,True
+dsv4-flash,DeepSeek V4 Flash,base,32,448,0,250.2,58537,86929,4.12,0.74,1.4,96.2,46.9,23.1,20261021-195719,results/dsv4-flash/20261021-195719/sesiones_base.json,True
+dsv4-flash,DeepSeek V4 Flash,base,64,896,0,369.7,59022,92913,6.06,1.63,3.05,96,35,12.1,20261021-195719,results/dsv4-flash/20261021-195719/sesiones_base.json,True
+dsv4-flash,DeepSeek V4 Flash,fino,80,1120,0,424.4,58172,92559,5.66,1.48,3.1,96.2,30.6,9.6,20261022-144115,results/dsv4-flash/20261022-144115/sesiones_fino.json,True
+dsv4-flash,DeepSeek V4 Flash,fino,96,1344,0,494.2,59152,104863,7.25,2.15,5.11,95.9,27,9.8,20261022-062829,results/dsv4-flash/20261022-062829/sesiones_fino.json,False
+dsv4-flash,DeepSeek V4 Flash,fino,128,1792,0,609.8,58319,98280,7.57,1.54,8.49,96.1,20.6,7.1,20261022-062829,results/dsv4-flash/20261022-062829/sesiones_fino.json,False
+glm53-ssmbf16,GLM-5.3-Flash,base,4,56,0,130.3,57985,77543,2.78,0.29,0.43,93.2,122.9,84.1,20261022-044720,results/glm53-ssmbf16/20261022-044720/sesiones_base.json,True
+glm53-ssmbf16,GLM-5.3-Flash,base,8,112,0,148,57155,88889,2.19,0.3,0.57,92,94.5,70.8,20261022-044720,results/glm53-ssmbf16/20261022-044720/sesiones_base.json,True
+glm53-ssmbf16,GLM-5.3-Flash,base,16,224,0,188,54243,76320,2.95,0.38,0.72,92.5,62.5,36.6,20261022-044720,results/glm53-ssmbf16/20261022-044720/sesiones_base.json,True
+glm53-ssmbf16,GLM-5.3-Flash,base,32,448,0,272,56536,83517,6.48,0.49,0.94,92.5,38.6,20.1,20261022-044720,results/glm53-ssmbf16/20261022-044720/sesiones_base.json,True
+glm53-ssmbf16,GLM-5.3-Flash,fino,48,672,0,404.9,56288,88320,4.25,0.93,10.06,83,28.3,8.8,20261022-103927,results/glm53-ssmbf16/20261022-103927/sesiones_fino.json,False
+glm53-ssmbf16,GLM-5.3-Flash,base,64,404,0,611.3,48565,70051,5.27,25.93,54.12,7.1,6.2,3.8,20261022-044720,results/glm53-ssmbf16/20261022-044720/sesiones_base.json,False
+gptoss120b,gpt-oss-120b,base,4,56,0,107.2,58193,77533,1.51,0.15,0.29,96.4,294.4,209.4,20261022-001945,results/gptoss120b/20261022-001945/sesiones_base.json,True
+gptoss120b,gpt-oss-120b,base,8,112,0,118.7,57297,89670,2.18,0.16,0.51,96,238.5,154.3,20261022-001945,results/gptoss120b/20261022-001945/sesiones_base.json,True
+gptoss120b,gpt-oss-120b,base,16,224,0,145.6,54399,76748,1.84,0.15,0.38,96.6,148.3,78.9,20261022-001945,results/gptoss120b/20261022-001945/sesiones_base.json,True
+gptoss120b,gpt-oss-120b,base,32,448,0,222.3,56712,84100,2.7,0.21,0.66,96.4,64.3,33.6,20261022-001945,results/gptoss120b/20261022-001945/sesiones_base.json,True
+gptoss120b,gpt-oss-120b,base,64,896,0,351.6,57195,90076,3.28,0.4,2.74,96.2,33.9,19.6,20261022-001945,results/gptoss120b/20261022-001945/sesiones_base.json,True
+gptoss120b,gpt-oss-120b,fino,80,779,0,616.7,52260,77609,3.22,4.56,22.28,43,11.8,4.1,20261022-152230,results/gptoss120b/20261022-152230/sesiones_fino.json,False
+gptoss120b,gpt-oss-120b,fino,96,741,0,631.4,51245,83647,4.57,13.86,24.63,34.8,6.7,4.2,20261022-082458,results/gptoss120b/20261022-082458/sesiones_fino.json,False
+qwen27b-fp8,Qwen3.8-27B,base,4,56,0,142.4,59281,78922,5.62,0.39,0.58,95.8,99.2,86.9,20261022-014242,results/qwen27b-fp8/20261022-014242/sesiones_base.json,True
+qwen27b-fp8,Qwen3.8-27B,base,8,112,0,157.8,58328,91409,4.99,0.36,0.64,95.3,85.3,56,20261022-014242,results/qwen27b-fp8/20261022-014242/sesiones_base.json,True
+qwen27b-fp8,Qwen3.8-27B,base,16,224,0,192.9,55391,78110,6.81,0.4,0.71,95.9,63.7,31,20261022-014242,results/qwen27b-fp8/20261022-014242/sesiones_base.json,True
+qwen27b-fp8,Qwen3.8-27B,base,32,448,0,283.7,57755,85790,14.31,0.62,1.28,95.7,39.3,15.8,20261022-014242,results/qwen27b-fp8/20261022-014242/sesiones_base.json,True
+qwen27b-fp8,Qwen3.8-27B,fino,48,672,0,368.3,57522,91207,13.03,1.06,2.64,95.8,30.2,10.2,20261022-094553,results/qwen27b-fp8/20261022-094553/sesiones_fino.json,True
+qwen27b-fp8,Qwen3.8-27B,base,64,896,0,460.3,58239,91764,10.03,1.96,4.28,95.5,22.3,7.9,20261022-014242,results/qwen27b-fp8/20261022-014242/sesiones_base.json,False
+qwen27b-fp8-dflash,Qwen3.8-27B + DFlash2,base,4,56,0,106.6,59262,78911,4.79,0.37,0.6,94.3,521.8,222.2,20261022-203714,results/qwen27b-fp8-dflash/20261022-203714/sesiones_base.json,True
+qwen27b-fp8-dflash,Qwen3.8-27B + DFlash2,base,16,224,0,153.2,55384,78156,8.01,0.45,0.87,94.3,323.5,44.4,20261022-203714,results/qwen27b-fp8-dflash/20261022-203714/sesiones_base.json,True
+qwen27b-fp8-dflash,Qwen3.8-27B + DFlash2,base,48,672,0,310.8,57508,91095,19.61,1.98,5.01,94.2,72.9,12,20261022-203714,results/qwen27b-fp8-dflash/20261022-203714/sesiones_base.json,True
+qwen38-flash-next,Qwen3.8-Flash-Next,base,4,56,0,110,58984,78483,3.28,0.47,0.74,92.4,454.8,158.4,20261021-220809,results/qwen38-flash-next/20261021-220809/sesiones_base.json,True
+qwen38-flash-next,Qwen3.8-Flash-Next,base,8,112,0,119.9,58134,90744,2.28,0.53,0.84,91.8,270.6,131.7,20261021-220809,results/qwen38-flash-next/20261021-220809/sesiones_base.json,True
+qwen38-flash-next,Qwen3.8-Flash-Next,base,16,224,0,155,55221,77339,4.21,0.61,0.93,92.3,159.2,72.9,20261021-220809,results/qwen38-flash-next/20261021-220809/sesiones_base.json,True
+qwen38-flash-next,Qwen3.8-Flash-Next,base,32,448,0,225.7,57556,84896,5.81,0.85,2.08,92.3,84.6,23.6,20261021-220809,results/qwen38-flash-next/20261021-220809/sesiones_base.json,True
+qwen38-flash-next,Qwen3.8-Flash-Next,base,64,896,0,349.4,58039,91505,7.51,2.27,7.51,92.1,53,18.8,20261021-220809,results/qwen38-flash-next/20261021-220809/sesiones_base.json,True
+qwen38-flash-next,Qwen3.8-Flash-Next,fino,80,860,0,659.5,53954,84443,9.33,26.76,58.49,64.1,18.6,14.2,20261022-150257,results/qwen38-flash-next/20261022-150257/sesiones_fino.json,False
+qwen38-flash-next,Qwen3.8-Flash-Next,fino,96,673,0,738.1,51632,83349,7.3,71.22,132.68,42.3,19,13.6,20261022-073000,results/qwen38-flash-next/20261022-073000/sesiones_fino.json,False

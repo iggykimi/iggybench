@@ -1,0 +1,17 @@
+model,model_name,users,random_tok_s,real_tok_s,change_pct,random_tpot_p50_ms,real_tpot_p50_ms,tpot_change_pct,real_input_tokens_mean,source
+gptoss120b,gpt-oss-120b,1,355.138,354.538,-0.168948,2.70111,2.70676,0.209173,8669,results/gptoss120b/20261022-001945/json/T15_estandar@real_in8192_pre0_out1024_c1_rinf.json
+gptoss120b,gpt-oss-120b,16,2158.54,2027.69,-6.06197,6.67427,7.15807,7.24873,8515.44,results/gptoss120b/20261022-001945/json/T15_estandar@real_in8192_pre0_out1024_c16_rinf.json
+gptoss120b,gpt-oss-120b,64,3722.38,3625.93,-2.59108,16.3434,16.9999,4.01691,8626.78,results/gptoss120b/20261022-001945/json/T15_estandar@real_in8192_pre0_out1024_c64_rinf.json
+gptoss120b,gpt-oss-120b,128,4639.95,4898.89,5.58066,26.8557,23.7717,-11.4836,8587.07,results/gptoss120b/20261022-001945/json/T15_estandar@real_in8192_pre0_out1024_c128_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,1,299.689,260.735,-12.9981,3.09951,3.51613,13.4415,8149.75,results/qwen38-flash-next/20261022-073000/json/T15_estandar@real_in8192_pre0_out1024_c1_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,16,1314.42,1289.83,-1.87079,10.1301,11.1957,10.5191,8624.83,results/qwen38-flash-next/20261022-073000/json/T15_estandar@real_in8192_pre0_out1024_c16_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,64,2228.09,2237.19,0.408422,24.7996,26.1063,5.26904,8606,results/qwen38-flash-next/20261022-073000/json/T15_estandar@real_in8192_pre0_out1024_c64_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,128,2736.16,2671.26,-2.37194,41.027,43.9128,7.0339,8700.17,results/qwen38-flash-next/20261022-073000/json/T15_estandar@real_in8192_pre0_out1024_c128_rinf.json
+dsv4-flash,DeepSeek V4 Flash,1,156.709,149.754,-4.43816,6.15565,6.1457,-0.16164,9115.62,results/dsv4-flash/20261022-062829/json/T15_estandar@real_in8192_pre0_out1024_c1_rinf.json
+dsv4-flash,DeepSeek V4 Flash,16,1154.34,1088.24,-5.72622,12.7786,13.7987,7.98288,8840.72,results/dsv4-flash/20261022-062829/json/T15_estandar@real_in8192_pre0_out1024_c16_rinf.json
+dsv4-flash,DeepSeek V4 Flash,64,2155.18,2125.46,-1.379,28.7125,28.6913,-0.0738354,8630.38,results/dsv4-flash/20261022-062829/json/T15_estandar@real_in8192_pre0_out1024_c64_rinf.json
+dsv4-flash,DeepSeek V4 Flash,128,2759.77,3309.89,19.9335,44.9859,36.3313,-19.2385,8752.07,results/dsv4-flash/20261022-062829/json/T15_estandar@real_in8192_pre0_out1024_c128_rinf.json
+glm53-ssmbf16,GLM-5.3-Flash,1,139.479,138.866,-0.439493,6.93633,6.93506,-0.0183094,9840.62,results/glm53-ssmbf16/20261022-044720/json/T15_estandar@real_in8192_pre0_out1024_c1_rinf.json
+glm53-ssmbf16,GLM-5.3-Flash,16,914.628,889.484,-2.7491,16.2686,16.7428,2.91482,8512.77,results/glm53-ssmbf16/20261022-044720/json/T15_estandar@real_in8192_pre0_out1024_c16_rinf.json
+glm53-ssmbf16,GLM-5.3-Flash,64,1701.02,1632.7,-4.01641,36.4085,37.6138,3.31049,8665.27,results/glm53-ssmbf16/20261022-044720/json/T15_estandar@real_in8192_pre0_out1024_c64_rinf.json
+glm53-ssmbf16,GLM-5.3-Flash,128,2175.8,2136.64,-1.7998,57.6105,58.1687,0.968921,8580.86,results/glm53-ssmbf16/20261022-044720/json/T15_estandar@real_in8192_pre0_out1024_c128_rinf.json
