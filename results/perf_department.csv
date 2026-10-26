@@ -1,0 +1,5 @@
+model,model_name,last_pass_people,first_fail_people,failing_profiles,max_tested_people,batch,source
+dsv4-flash,DeepSeek V4 Flash,200,400,"rag,chat,agentes",400,batch2,results/dsv4-flash/20261021-195719
+gptoss120b,gpt-oss-120b,400,,,400,batch1,results/gptoss120b/20261021-084142
+qwen27b-fp8,Qwen3.8-27B,50,100,chat,400,batch2,results/qwen27b-fp8/20261022-014242
+qwen38-flash-next,Qwen3.8-Flash-Next,200,400,"rag,chat,agentes",400,batch2,results/qwen38-flash-next/20261021-220809

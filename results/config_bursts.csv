@@ -1,0 +1,6 @@
+rate_req_s,bursty_meets_slo,bursty_ttft_p95_ms,bursty_tpot_p95_ms,poisson_ttft_p95_ms,poisson_tpot_p95_ms,source
+2,True,98.8947,6.50602,94.2162,5.94308,results/gptoss120b/20261022-001945/json/T18_chat@rafagas_in1024_pre0_out512_c-_r2.json
+4,True,103.193,9.16055,96.1485,8.32543,results/gptoss120b/20261022-001945/json/T18_chat@rafagas_in1024_pre0_out512_c-_r4.json
+6,True,124.247,11.981,,,results/gptoss120b/20261022-001945/json/T18_chat@rafagas_in1024_pre0_out512_c-_r6.json
+8,True,124.762,12.5349,114.971,12.6882,results/gptoss120b/20261022-001945/json/T18_chat@rafagas_in1024_pre0_out512_c-_r8.json
+12,True,148.709,18.9815,139.462,18.2297,results/gptoss120b/20261022-001945/json/T18_chat@rafagas_in1024_pre0_out512_c-_r12.json

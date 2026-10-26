@@ -1,0 +1,6 @@
+model,model_name,questions,correct,accuracy_pct,ci95_low_pct,ci95_high_pct,accuracy_first200_pct,errors,source
+gptoss120b,gpt-oss-120b,1319,1268,96.1334,94.9519,97.047,97,0,results/gptoss120b/20261022-001945/gsm8k.json
+qwen27b-fp8,Qwen3.8-27B,1319,1275,96.6641,95.5515,97.5058,96,0,results/qwen27b-fp8/20261022-014242/gsm8k.json
+qwen38-flash-next,Qwen3.8-Flash-Next,1319,1279,96.9674,95.8969,97.7651,98.5,0,results/qwen38-flash-next/20261021-220809/gsm8k.json
+dsv4-flash,DeepSeek V4 Flash,1319,1281,97.119,96.0705,97.8939,98,0,results/dsv4-flash/20261021-195719/gsm8k.json
+glm53-ssmbf16,GLM-5.3-Flash,1319,1260,95.5269,94.2729,96.5165,97,0,results/glm53-ssmbf16/20261022-044720/gsm8k.json

@@ -1,0 +1,4 @@
+method,model,baseline,single_user_tok_s,baseline_single_user_tok_s,single_user_change_pct,chat_last_pass_req_s,chat_first_fail_req_s,baseline_chat_last_pass_req_s,baseline_chat_first_fail_req_s
+MTP (3 tokens),qwen38-flash-next,qwen38-flash-next-nomtp,305.104,200.37,52.2701,6,7,5,6
+EAGLE-3,gptoss120b-eagle3,gptoss120b,299.154,381.249,-21.5331,16,,16,
+DFlash2 (7 tokens),qwen27b-fp8-dflash,qwen27b-fp8,306.048,111.771,173.817,4,8,8,12

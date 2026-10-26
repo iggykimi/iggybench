@@ -1,0 +1,6 @@
+model,model_name,engine,audios,failures,wer_es_419_pct,wer_en_us_pct,wer_ca_es_pct,wer_fr_fr_pct,wer_de_de_pct,wer_pt_br_pct,wer_it_it_pct,wer_pooled_7_pct,wer_mean_7_pct,wer_mean_6_no_ca_pct,load_level,rtfx_1,audios_at_1,latency_p50_s_at_1,rtfx_load,s_per_audio_hour_load,source
+voxtral-mini-3b,Voxtral Mini 3B,vLLM,420,0,2.1,5.4,9.1,4.9,4,4.1,1.2,4.4,4.4,3.61667,concurrency 32,94.7,105,0.12,823,4.37424,results/asr/20261022-214100/asr_voxtral-mini-3b.json
+qwen3-asr-1.7b,Qwen3-ASR 1.7B,vLLM,420,0,2,4.7,22.9,5,4.1,4.5,2.1,6.5,6.47143,3.73333,concurrency 32,102.8,105,0.11,766,4.69974,results/asr/20261022-214100/asr_qwen3-asr-1.7b.json
+whisper-large-v3,Whisper large-v3,vLLM,420,0,2.8,6.3,4.8,5.4,3.4,3.8,1.7,4.1,4.02857,3.9,concurrency 32,59.2,105,0.15,467.6,7.69889,results/asr/20261022-214100/asr_whisper-large-v3.json
+bark-3.0-pro,Underdog Bark 3.0 Pro,Transformers,420,0,2.2,8.4,70.9,4.6,5.9,4.6,2.1,,14.1,4.63333,batch 16,39,60,0.159,530.2,6.78989,results/asr/bark-20261022-223145/asr_bark.json
+granite-4.0-1b-speech,Granite 4.0 1B Speech,vLLM,420,0,5.9,8.2,76.8,6.8,8.2,13.5,16.7,19.3,19.4429,9.88333,concurrency 32,80.1,105,0.15,511.4,7.0395,results/asr/20261022-214100/asr_granite-4.0-1b-speech.json

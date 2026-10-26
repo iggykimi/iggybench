@@ -1,0 +1,6 @@
+model,model_name,steps,batch,s_per_call,s_per_image,images_per_min,peak_memory_gib,source
+qwen-image,Qwen-Image,50,1,11.44,11.44,5.24476,58,results/qwen-image/20261022-040307/imagen.json
+qwen-image,Qwen-Image,50,4,39.52,9.88,6.07287,70.4,results/qwen-image/20261022-040307/imagen.json
+qwen-image,Qwen-Image,50,8,72.75,9.09,6.60066,86.1,results/qwen-image/20261022-040307/imagen.json
+qwen-image,Qwen-Image,25,1,5.79,5.79,10.3627,58,results/qwen-image/20261022-040307/imagen.json
+qwen-image,Qwen-Image,25,4,18.91,4.73,12.685,70.4,results/qwen-image/20261022-040307/imagen.json

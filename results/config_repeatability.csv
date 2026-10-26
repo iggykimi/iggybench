@@ -1,0 +1,13 @@
+model,model_name,point,metric,runs,mean,sd,cv_pct,values,source
+dsv4-flash,DeepSeek V4 Flash,chat at 64 users,output_tok_s,3,2801.72,37.6932,1.34536,2761.9 / 2806.4 / 2836.9,results/dsv4-flash/20261022-144115
+dsv4-flash,DeepSeek V4 Flash,chat at 64 users,ttft_p95_ms,3,1581.95,51.4942,3.25511,1641.3 / 1554.8 / 1549.8,results/dsv4-flash/20261022-144115
+dsv4-flash,DeepSeek V4 Flash,chat at 64 users,tpot_p95_ms,3,22.1671,0.388003,1.75035,22.6 / 22.1 / 21.8,results/dsv4-flash/20261022-144115
+dsv4-flash,DeepSeek V4 Flash,estandar at 64 users,output_tok_s,3,2159.42,7.83222,0.3627,2163.9 / 2164.0 / 2150.4,results/dsv4-flash/20261022-144115
+dsv4-flash,DeepSeek V4 Flash,estandar at 64 users,ttft_p95_ms,3,10245.8,122.537,1.19598,10345.5 / 10109.0 / 10282.9,results/dsv4-flash/20261022-144115
+dsv4-flash,DeepSeek V4 Flash,estandar at 64 users,tpot_p95_ms,3,28.7118,0.130013,0.452823,28.6 / 28.8 / 28.8,results/dsv4-flash/20261022-144115
+gptoss120b,gpt-oss-120b,chat at 64 users,output_tok_s,3,5906.1,59.515,1.00769,5906.1 / 5846.6 / 5965.6,results/gptoss120b/20261022-001945
+gptoss120b,gpt-oss-120b,chat at 64 users,ttft_p95_ms,3,681.139,3.00138,0.440641,677.7 / 682.7 / 683.1,results/gptoss120b/20261022-001945
+gptoss120b,gpt-oss-120b,chat at 64 users,tpot_p95_ms,3,10.5487,0.145937,1.38346,10.6 / 10.7 / 10.4,results/gptoss120b/20261022-001945
+gptoss120b,gpt-oss-120b,estandar at 64 users,output_tok_s,3,3751.03,6.29035,0.167697,3756.2 / 3744.0 / 3752.8,results/gptoss120b/20261022-001945
+gptoss120b,gpt-oss-120b,estandar at 64 users,ttft_p95_ms,3,4352.21,62.3082,1.43165,4379.6 / 4396.1 / 4280.9,results/gptoss120b/20261022-001945
+gptoss120b,gpt-oss-120b,estandar at 64 users,tpot_p95_ms,3,16.5714,0.0331099,0.199801,16.5 / 16.6 / 16.6,results/gptoss120b/20261022-001945

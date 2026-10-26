@@ -1,0 +1,8 @@
+model,model_name,emails,count_basis,category_correct,category_accuracy_pct,urgency_correct,urgency_accuracy_pct,both_correct,both_accuracy_pct,ci95_low_pct,ci95_high_pct,emails_per_s,latency_p50_ms,latency_p95_ms,output_tokens_mean,format_failures,concurrency,source
+gptoss120b,gpt-oss-120b,240,from_pct_unique,231,96.25,240,100,231,96.25,93.0279,98.0148,39,684,1423,70,0,32,results/gptoss120b/20261022-082458/clasif_dificil.json
+qwen27b-fp8,Qwen3.8-27B,240,from_pct_unique,235,97.9167,240,100,235,97.9167,95.2166,99.1069,35.2,857,1534,18,0,32,results/qwen27b-fp8/20261022-094553/clasif_dificil.json
+qwen38-flash-next,Qwen3.8-Flash-Next,240,from_pct_unique,239,99.5833,236,98.3333,235,97.9167,95.2166,99.1069,40.5,737,1280,16,0,32,results/qwen38-flash-next/20261022-073000/clasif_dificil.json
+dsv4-flash,DeepSeek V4 Flash,240,from_pct_unique,240,100,240,100,240,100,98.4246,100,51.5,475,1260,15,0,32,results/dsv4-flash/20261022-062829/clasif_dificil.json
+glm53-ssmbf16,GLM-5.3-Flash,240,from_pct_unique,240,100,240,100,240,100,98.4246,100,6.1,4472,10069,207,0,32,results/glm53-ssmbf16/20261022-103927/clasif_dificil.json
+flint-sglang,Recursive Flint,240,from_pct_unique,213,88.75,236,98.3333,213,88.75,84.1267,92.1523,6,3954,11084,252,4,32,results/flint-sglang/20261022-223617/clasif_dificil.json
+nemotron35-super-vl,Nemotron 3.5 Super VL,240,from_pct_unique,239,99.5833,240,100,239,99.5833,97.6779,99.9264,56.3,453,1120,15,0,32,results/nemotron35-super-vl/20261022-220143/clasif_dificil.json

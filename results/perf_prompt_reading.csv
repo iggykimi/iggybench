@@ -1,0 +1,38 @@
+model,model_name,test,input_tokens,users,requests,completed,ttft_p50_ms,ttft_p95_ms,read_tok_s,run,source
+gptoss120b,gpt-oss-120b,T2,1024,1,5,5,24.5339,27.7561,41738.2,20261022-082458,results/gptoss120b/20261022-082458/json/T2_prefill_in1024_pre0_out16_c1_rinf.json
+gptoss120b,gpt-oss-120b,T2,4096,1,5,5,62.4215,67.8472,65618.4,20261022-082458,results/gptoss120b/20261022-082458/json/T2_prefill_in4096_pre0_out16_c1_rinf.json
+gptoss120b,gpt-oss-120b,T2,16384,1,5,5,230.507,234.641,71078.1,20261022-082458,results/gptoss120b/20261022-082458/json/T2_prefill_in16384_pre0_out16_c1_rinf.json
+gptoss120b,gpt-oss-120b,T2,32768,1,5,5,519.504,535.532,63075.5,20261022-082458,results/gptoss120b/20261022-082458/json/T2_prefill_in32768_pre0_out16_c1_rinf.json
+gptoss120b,gpt-oss-120b,T2,65536,1,5,5,1343.72,1350.47,48772.1,20261022-082458,results/gptoss120b/20261022-082458/json/T2_prefill_in65536_pre0_out16_c1_rinf.json
+qwen27b-fp8,Qwen3.8-27B,T2,1024,1,5,5,107.679,116.92,9509.75,20261022-014242,results/qwen27b-fp8/20261022-014242/json/T2_prefill_in1024_pre0_out16_c1_rinf.json
+qwen27b-fp8,Qwen3.8-27B,T2,4096,1,5,5,178.078,183.149,23001.2,20261022-014242,results/qwen27b-fp8/20261022-014242/json/T2_prefill_in4096_pre0_out16_c1_rinf.json
+qwen27b-fp8,Qwen3.8-27B,T2,16384,1,5,5,684.733,692.627,23927.6,20261022-014242,results/qwen27b-fp8/20261022-014242/json/T2_prefill_in16384_pre0_out16_c1_rinf.json
+qwen27b-fp8,Qwen3.8-27B,T2,32768,1,5,5,1401.52,1423.62,23380.3,20261022-014242,results/qwen27b-fp8/20261022-014242/json/T2_prefill_in32768_pre0_out16_c1_rinf.json
+qwen27b-fp8,Qwen3.8-27B,T2,65536,1,5,5,2930.99,2988.78,22359.7,20261022-014242,results/qwen27b-fp8/20261022-014242/json/T2_prefill_in65536_pre0_out16_c1_rinf.json
+qwen27b-fp8,Qwen3.8-27B,T2,131072,1,5,5,6458.24,6469.67,20295.3,20261022-014242,results/qwen27b-fp8/20261022-014242/json/T2_prefill_in131072_pre0_out16_c1_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,T2,1024,1,5,5,52.2391,58.1639,19602.2,20261021-220809,results/qwen38-flash-next/20261021-220809/json/T2_prefill_in1024_pre0_out16_c1_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,T2,4096,1,5,5,281.827,301.789,14533.7,20261021-220809,results/qwen38-flash-next/20261021-220809/json/T2_prefill_in4096_pre0_out16_c1_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,T2,16384,1,5,5,520.899,556.65,31453.3,20261021-220809,results/qwen38-flash-next/20261021-220809/json/T2_prefill_in16384_pre0_out16_c1_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,T2,32768,1,5,5,1045.48,1122.11,31342.5,20261021-220809,results/qwen38-flash-next/20261021-220809/json/T2_prefill_in32768_pre0_out16_c1_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,T2,65536,1,5,5,2088.09,2122.73,31385.6,20261021-220809,results/qwen38-flash-next/20261021-220809/json/T2_prefill_in65536_pre0_out16_c1_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,T2,131072,1,5,5,4242.27,4248.64,30896.7,20261021-220809,results/qwen38-flash-next/20261021-220809/json/T2_prefill_in131072_pre0_out16_c1_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,T5,130048,1,1,1,4220.97,4220.97,30810,20261021-220809,results/qwen38-flash-next/20261021-220809/json/T5_extremo_in130048_pre0_out256_c1_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,T5,130048,4,4,4,10010.7,14825.6,12990.9,20261021-220809,results/qwen38-flash-next/20261021-220809/json/T5_extremo_in130048_pre0_out256_c4_rinf.json
+qwen38-flash-next,Qwen3.8-Flash-Next,T5,261120,1,1,1,8456.5,8456.5,30878,20261021-220809,results/qwen38-flash-next/20261021-220809/json/T5_extremo_in261120_pre0_out256_c1_rinf.json
+dsv4-flash,DeepSeek V4 Flash,T2,1024,1,5,5,165.234,610.081,6197.27,20261021-195719,results/dsv4-flash/20261021-195719/json/T2_prefill_in1024_pre0_out16_c1_rinf.json
+dsv4-flash,DeepSeek V4 Flash,T2,4096,1,5,5,185.642,622.648,22064,20261021-195719,results/dsv4-flash/20261021-195719/json/T2_prefill_in4096_pre0_out16_c1_rinf.json
+dsv4-flash,DeepSeek V4 Flash,T2,16384,1,5,5,455.933,463.534,35935.1,20261021-195719,results/dsv4-flash/20261021-195719/json/T2_prefill_in16384_pre0_out16_c1_rinf.json
+dsv4-flash,DeepSeek V4 Flash,T2,32768,1,5,5,931.133,935.977,35191.5,20261021-195719,results/dsv4-flash/20261021-195719/json/T2_prefill_in32768_pre0_out16_c1_rinf.json
+dsv4-flash,DeepSeek V4 Flash,T2,65536,1,5,5,1905.51,1912.95,34392.9,20261021-195719,results/dsv4-flash/20261021-195719/json/T2_prefill_in65536_pre0_out16_c1_rinf.json
+dsv4-flash,DeepSeek V4 Flash,T2,131072,1,5,5,4083.44,4097.19,32098.4,20261021-195719,results/dsv4-flash/20261021-195719/json/T2_prefill_in131072_pre0_out16_c1_rinf.json
+dsv4-flash,DeepSeek V4 Flash,T5,130048,1,1,1,4035.27,4035.27,32227.8,20261021-195719,results/dsv4-flash/20261021-195719/json/T5_extremo_in130048_pre0_out256_c1_rinf.json
+dsv4-flash,DeepSeek V4 Flash,T5,130048,4,4,4,9560.08,14243.4,13603.2,20261021-195719,results/dsv4-flash/20261021-195719/json/T5_extremo_in130048_pre0_out256_c4_rinf.json
+dsv4-flash,DeepSeek V4 Flash,T5,261120,1,1,1,9115.36,9115.36,28646.2,20261021-195719,results/dsv4-flash/20261021-195719/json/T5_extremo_in261120_pre0_out256_c1_rinf.json
+dsv4-flash,DeepSeek V4 Flash,T5,523264,1,1,1,22799.3,22799.3,22950.9,20261021-195719,results/dsv4-flash/20261021-195719/json/T5_extremo_in523264_pre0_out256_c1_rinf.json
+dsv4-flash,DeepSeek V4 Flash,T5,1047552,1,1,1,64955.6,64955.6,16127.2,20261021-195719,results/dsv4-flash/20261021-195719/json/T5_extremo_in1047552_pre0_out256_c1_rinf.json
+glm53-ssmbf16,GLM-5.3-Flash,T2,1024,1,5,5,126.732,349.044,8080.04,20261022-103927,results/glm53-ssmbf16/20261022-103927/json/T2_prefill_in1024_pre0_out16_c1_rinf.json
+glm53-ssmbf16,GLM-5.3-Flash,T2,4096,1,5,5,137.025,372.853,29892.4,20261022-103927,results/glm53-ssmbf16/20261022-103927/json/T2_prefill_in4096_pre0_out16_c1_rinf.json
+glm53-ssmbf16,GLM-5.3-Flash,T2,16384,1,5,5,440.696,447.266,37177.6,20261022-103927,results/glm53-ssmbf16/20261022-103927/json/T2_prefill_in16384_pre0_out16_c1_rinf.json
+glm53-ssmbf16,GLM-5.3-Flash,T2,32768,1,5,5,929.226,935.793,35263.8,20261022-103927,results/glm53-ssmbf16/20261022-103927/json/T2_prefill_in32768_pre0_out16_c1_rinf.json
+glm53-ssmbf16,GLM-5.3-Flash,T2,65536,1,5,5,1839.69,1850.39,35623.4,20261022-103927,results/glm53-ssmbf16/20261022-103927/json/T2_prefill_in65536_pre0_out16_c1_rinf.json
+glm53-ssmbf16,GLM-5.3-Flash,T2,131072,1,5,5,3745.19,3776.88,34997.4,20261022-103927,results/glm53-ssmbf16/20261022-103927/json/T2_prefill_in131072_pre0_out16_c1_rinf.json

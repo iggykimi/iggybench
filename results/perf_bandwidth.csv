@@ -1,0 +1,5 @@
+model,model_name,active_params_b,bytes_per_param,gb_per_token,tok_s_per_user,tb_s_used,share_of_hbm_pct
+gptoss120b,gpt-oss-120b,5.1,0.56,2.856,381.249,1.08885,15.3359
+qwen27b-fp8,Qwen3.8-27B,27,1,27,111.771,3.01782,42.5045
+dsv4-flash,DeepSeek V4 Flash,13,1,13,166.706,2.16718,30.5237
+glm53-ssmbf16,GLM-5.3-Flash,18,0.56,10.08,145.162,1.46323,20.6089

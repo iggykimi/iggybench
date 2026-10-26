@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use these measurements or the harness, please cite them as below."
+title: "IggyBench: serving open-weight LLMs on one NVIDIA GB300, by use case"
+type: dataset
+authors:
+  - given-names: Ignacio
+    family-names: Montero Gil
+    alias: iggykimi
+version: "1.0"
+date-released: "2026-10-26"
+repository-code: "https://github.com/iggykimi/iggybench"
+license: [MIT, CC-BY-4.0]
+keywords: [LLM inference, benchmark, vLLM, GB300, capacity planning, energy]

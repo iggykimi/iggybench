@@ -1,0 +1,14 @@
+model,model_name,profile,grid,last_pass_req_s,first_fail_req_s,users_low,users_high,fails_on,mlperf_conv_max_req_s,steady_req_s,steady_requests,steady_failed,steady_ttft_p95_ms,steady_tpot_p95_ms,tok_s_per_user_at_last_pass,points,source
+gptoss120b,gpt-oss-120b,chat,fine,18,20,1080,1200,TTFT P95 2170 ms,18,16,9600,2,184.129,23.9289,43.081,11,results/gptoss120b/20261022-001945;results/gptoss120b/20261022-082458;results/gptoss120b/20261022-152230
+gptoss120b,gpt-oss-120b,agentes,fine,4,4.5,240,270,TPOT P95 41.9 ms,5,,,,,,41.9847,8,results/gptoss120b/20261022-001945;results/gptoss120b/20261022-082458;results/gptoss120b/20261022-152230
+qwen27b-fp8,Qwen3.8-27B,chat,fine,9,10,540,600,TTFT P95 3069 ms,9,8,4800,2,351.326,43.3033,26.5275,9,results/qwen27b-fp8/20261022-014242;results/qwen27b-fp8/20261022-094553
+qwen27b-fp8,Qwen3.8-27B,agentes,fine,1.75,2,105,120,TPOT P95 47.8 ms,1.25,,,,,,30.1175,7,results/qwen27b-fp8/20261022-014242;results/qwen27b-fp8/20261022-094553
+qwen38-flash-next,Qwen3.8-Flash-Next,chat,fine,6,7,360,420,TPOT P95 50.1 ms,8,4,2400,0,443.463,26.3879,33.9649,9,results/qwen38-flash-next/20261021-220809;results/qwen38-flash-next/20261022-073000
+qwen38-flash-next,Qwen3.8-Flash-Next,agentes,fine,1.75,2,105,120,TPOT P95 42.4 ms,1.75,,,,,,45.1677,7,results/qwen38-flash-next/20261021-220809;results/qwen38-flash-next/20261022-073000
+dsv4-flash,DeepSeek V4 Flash,chat,fine,4,5,240,300,TTFT P95 2005 ms,2,4,2400,0,472.504,47.6759,24.5516,7,results/dsv4-flash/20261021-195719;results/dsv4-flash/20261022-062829
+dsv4-flash,DeepSeek V4 Flash,agentes,fine,2,2.25,120,135,TPOT P95 48.4 ms,2.25,,,,,,35.9117,6,results/dsv4-flash/20261021-195719;results/dsv4-flash/20261022-062829
+glm53-ssmbf16,GLM-5.3-Flash,chat,fine,5,6,300,360,"TTFT P95 2089 ms, TPOT P95 61.0 ms",5,,,,,,21.2956,6,results/glm53-ssmbf16/20261022-044720;results/glm53-ssmbf16/20261022-103927
+glm53-ssmbf16,GLM-5.3-Flash,agentes,fine,1.25,1.5,75,90,TPOT P95 50.1 ms,2,,,,,,30.7757,5,results/glm53-ssmbf16/20261022-044720;results/glm53-ssmbf16/20261022-103927
+qwen27b-fp8-dflash,Qwen3.8-27B + DFlash2,chat,coarse,4,8,240,480,TPOT P95 75.3 ms,8,,,,,,143.929,6,results/qwen27b-fp8-dflash/20261022-202455
+flint-sglang,Recursive Flint,chat,coarse,8,12,480,720,"TTFT P95 39449 ms, TPOT P95 177.1 ms",8,,,,,,30.8922,6,results/flint-sglang/20261022-224152
+nemotron35-super-vl,Nemotron 3.5 Super VL,chat,coarse,2,4,120,240,TPOT P95 59.6 ms,4,,,,,,51.3223,5,results/nemotron35-super-vl/20261022-222053
