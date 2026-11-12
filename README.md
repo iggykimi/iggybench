@@ -6,8 +6,15 @@ Measured on 20–22 October 2026.
 
 I had the machine for three days. In that window I ran seven language models (eight configurations) and eleven
 specialist models for OCR, speech, embeddings and image generation through 24 tests. The tests range from
-single-user speed to ten-minute steady-state load, and from AIME to invoice extraction. Every number in this repository is recomputed from the raw measurements by the scripts
-in [`analysis/`](analysis). The full write-up is in [`REPORT.md`](REPORT.md).
+single-user speed to ten-minute steady-state load, and from AIME to invoice extraction.
+
+The short answer: one GPU of this class served between a few hundred and about a thousand chat users with one
+model loaded, and no model won everywhere. On easy tasks the five main models scored within 4 points of each
+other while their chat capacity differed by a factor of 4.5, so the right model depends on the job.
+
+Every number in this repository is recomputed from the raw measurements by the scripts in
+[`analysis/`](analysis). The full write-up is in [`REPORT.md`](REPORT.md), and what went wrong during the three
+days is in [`docs/lessons-learned.md`](docs/lessons-learned.md).
 
 ## Key results
 
@@ -37,10 +44,17 @@ are those user counts. The vertical line
 is the 20 tok/s per user that the chat target implies. One run per point.
 Data: [`results/perf_frontier_t12.csv`](results/perf_frontier_t12.csv).
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="figures/fig02-capacity-dark.svg">
+  <img alt="Capacity intervals per model for chat, agents and coding sessions" src="figures/fig02-capacity-light.svg">
+</picture>
+
+**Figure 2.** Capacity under each target (chat, agents, coding sessions). Filled dot: highest tested load that met
+it; open dot: next load, which failed. Dashed: coarse rate grid. One run per point. Data:
+[`results/perf_capacity.csv`](results/perf_capacity.csv), [`results/perf_coding_capacity.csv`](results/perf_coding_capacity.csv).
+
 On GSM8K, the hard e-mail set and the clean invoices, the five main models are within 4 points of each other.
-Chat capacity, by contrast, differs by a factor of 4.5 between them. AIME, function calling and degraded scans do
-separate the models, and in different orders, so the choice of model follows the use case. With one model loaded,
-a single GPU of this class served between a few hundred and about a thousand chat users.
+AIME, function calling and degraded scans do separate the models, and in different orders.
 
 ## System
 
@@ -172,8 +186,11 @@ docs/                  tests, metrics, models, cost model, data layout, runs, le
 ## Disclosure
 
 I ran these tests as part of my job at a systems integrator, on a demo unit booked from the vendor for three days.
-Neither the vendor nor NVIDIA saw or reviewed the results. Parts of the analysis code were written with an AI coding
-assistant; every number was then recomputed from the raw files, and the checks are in the scripts.
+Neither the vendor nor NVIDIA saw or reviewed the results.
+
+Parts of the harness and the analysis code were written with AI coding agents. I chose the tests, the targets and
+the statistics, ran the machine, and decided what each result means. Every number was then recomputed from the raw
+files, and the checks are in the scripts.
 
 ## Citation and license
 
