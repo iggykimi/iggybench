@@ -43,6 +43,9 @@ ORDER = [
 MARKERS = dict(zip(ORDER, ["o", "s", "^", "D", "v", "P", "p", "h"]))
 
 
+SVG_FONTS = b"font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+
+
 def color(model, theme):
     return THEMES[theme]["series"][ORDER.index(model)]
 
@@ -83,7 +86,11 @@ def figure(name, theme, size=(8, 4.8), **kw):
         yield fig, axes, t
         fig.tight_layout()
         FIGURES.mkdir(exist_ok=True)
-        fig.savefig(FIGURES / f"{name}-{theme}.svg", metadata={"Date": None}, bbox_inches="tight", pad_inches=0.15)
+        svg = FIGURES / f"{name}-{theme}.svg"
+        fig.savefig(svg, metadata={"Date": None}, bbox_inches="tight", pad_inches=0.15)
+        # With svg.fonttype "none" the text names only DejaVu Sans, which most browsers lack
+        # and replace with a serif face. Add a sans-serif fallback chain.
+        svg.write_bytes(svg.read_bytes().replace(b"font-family: 'DejaVu Sans'", SVG_FONTS))
         if theme == "light":
             fig.savefig(FIGURES / f"{name}.png", dpi=160, bbox_inches="tight", pad_inches=0.15)
         plt.close(fig)

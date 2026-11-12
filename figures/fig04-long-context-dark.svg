@@ -54,7 +54,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_1">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #c3c2b7" x="77.282663" y="332.15375" transform="rotate(-0 77.282663 332.15375)">1k</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #c3c2b7" x="77.282663" y="332.15375" transform="rotate(-0 77.282663 332.15375)">1k</text>
      </g>
     </g>
     <g id="xtick_2">
@@ -69,7 +69,7 @@ L 170.160784 10.8
       </g>
      </g>
      <g id="text_2">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #c3c2b7" x="170.160784" y="332.15375" transform="rotate(-0 170.160784 332.15375)">4k</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #c3c2b7" x="170.160784" y="332.15375" transform="rotate(-0 170.160784 332.15375)">4k</text>
      </g>
     </g>
     <g id="xtick_3">
@@ -84,7 +84,7 @@ L 263.038904 10.8
       </g>
      </g>
      <g id="text_3">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #c3c2b7" x="263.038904" y="332.15375" transform="rotate(-0 263.038904 332.15375)">16k</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #c3c2b7" x="263.038904" y="332.15375" transform="rotate(-0 263.038904 332.15375)">16k</text>
      </g>
     </g>
     <g id="xtick_4">
@@ -99,7 +99,7 @@ L 355.917024 10.8
       </g>
      </g>
      <g id="text_4">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #c3c2b7" x="355.917024" y="332.15375" transform="rotate(-0 355.917024 332.15375)">64k</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #c3c2b7" x="355.917024" y="332.15375" transform="rotate(-0 355.917024 332.15375)">64k</text>
      </g>
     </g>
     <g id="xtick_5">
@@ -114,7 +114,7 @@ L 402.356084 10.8
       </g>
      </g>
      <g id="text_5">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #c3c2b7" x="402.356084" y="332.15375" transform="rotate(-0 402.356084 332.15375)">128k</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #c3c2b7" x="402.356084" y="332.15375" transform="rotate(-0 402.356084 332.15375)">128k</text>
      </g>
     </g>
     <g id="xtick_6">
@@ -129,7 +129,7 @@ L 495.234204 10.8
       </g>
      </g>
      <g id="text_6">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #c3c2b7" x="495.234204" y="332.15375" transform="rotate(-0 495.234204 332.15375)">512k</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #c3c2b7" x="495.234204" y="332.15375" transform="rotate(-0 495.234204 332.15375)">512k</text>
      </g>
     </g>
     <g id="xtick_7">
@@ -144,7 +144,7 @@ L 541.673265 10.8
       </g>
      </g>
      <g id="text_7">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #c3c2b7" x="541.673265" y="332.152969" transform="rotate(-0 541.673265 332.152969)">1M</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #c3c2b7" x="541.673265" y="332.152969" transform="rotate(-0 541.673265 332.152969)">1M</text>
      </g>
     </g>
     <g id="xtick_8">
@@ -335,7 +335,7 @@ L 0 2
      </g>
     </g>
     <g id="text_8">
-     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #c3c2b7" x="309.445234" y="346.154531" transform="rotate(-0 309.445234 346.154531)">Prompt length (tokens, log scale)</text>
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #c3c2b7" x="309.445234" y="346.154531" transform="rotate(-0 309.445234 346.154531)">Prompt length (tokens, log scale)</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
@@ -356,7 +356,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_9">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #c3c2b7" x="47.066406" y="300.293706" transform="rotate(-0 47.066406 300.293706)">0.03</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #c3c2b7" x="47.066406" y="300.293706" transform="rotate(-0 47.066406 300.293706)">0.03</text>
      </g>
     </g>
     <g id="ytick_2">
@@ -371,7 +371,7 @@ L 564.824062 253.894591
       </g>
      </g>
      <g id="text_10">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #c3c2b7" x="47.066406" y="257.693419" transform="rotate(-0 47.066406 257.693419)">0.1</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #c3c2b7" x="47.066406" y="257.693419" transform="rotate(-0 47.066406 257.693419)">0.1</text>
      </g>
     </g>
     <g id="ytick_3">
@@ -386,7 +386,7 @@ L 564.824062 215.022285
       </g>
      </g>
      <g id="text_11">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #c3c2b7" x="47.066406" y="218.821113" transform="rotate(-0 47.066406 218.821113)">0.3</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #c3c2b7" x="47.066406" y="218.821113" transform="rotate(-0 47.066406 218.821113)">0.3</text>
      </g>
     </g>
     <g id="ytick_4">
@@ -401,7 +401,7 @@ L 564.824062 172.421998
       </g>
      </g>
      <g id="text_12">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #c3c2b7" x="47.066406" y="176.220826" transform="rotate(-0 47.066406 176.220826)">1</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #c3c2b7" x="47.066406" y="176.220826" transform="rotate(-0 47.066406 176.220826)">1</text>
      </g>
     </g>
     <g id="ytick_5">
@@ -416,7 +416,7 @@ L 564.824062 133.549692
       </g>
      </g>
      <g id="text_13">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #c3c2b7" x="47.066406" y="137.34852" transform="rotate(-0 47.066406 137.34852)">3</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #c3c2b7" x="47.066406" y="137.34852" transform="rotate(-0 47.066406 137.34852)">3</text>
      </g>
     </g>
     <g id="ytick_6">
@@ -431,7 +431,7 @@ L 564.824062 90.949405
       </g>
      </g>
      <g id="text_14">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #c3c2b7" x="47.066406" y="94.748233" transform="rotate(-0 47.066406 94.748233)">10</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #c3c2b7" x="47.066406" y="94.748233" transform="rotate(-0 47.066406 94.748233)">10</text>
      </g>
     </g>
     <g id="ytick_7">
@@ -446,7 +446,7 @@ L 564.824062 52.077099
       </g>
      </g>
      <g id="text_15">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #c3c2b7" x="47.066406" y="55.875927" transform="rotate(-0 47.066406 55.875927)">30</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #c3c2b7" x="47.066406" y="55.875927" transform="rotate(-0 47.066406 55.875927)">30</text>
      </g>
     </g>
     <g id="ytick_8">
@@ -461,7 +461,7 @@ L 564.824062 27.551405
       </g>
      </g>
      <g id="text_16">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #c3c2b7" x="47.066406" y="31.350233" transform="rotate(-0 47.066406 31.350233)">60</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #c3c2b7" x="47.066406" y="31.350233" transform="rotate(-0 47.066406 31.350233)">60</text>
      </g>
     </g>
     <g id="ytick_9">
@@ -659,7 +659,7 @@ L -2 0
      </g>
     </g>
     <g id="text_17">
-     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #c3c2b7" x="18.398438" y="164.177656" transform="rotate(-90 18.398438 164.177656)">Median time to first token (s, log scale)</text>
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #c3c2b7" x="18.398438" y="164.177656" transform="rotate(-90 18.398438 164.177656)">Median time to first token (s, log scale)</text>
     </g>
    </g>
    <g id="line2d_84">
@@ -847,7 +847,7 @@ L 80.166406 22.588594
      </g>
     </g>
     <g id="text_18">
-     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f0efec" x="87.366406" y="25.738594" transform="rotate(-0 87.366406 25.738594)">gpt-oss-120b</text>
+     <text style="font-size: 9px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #f0efec" x="87.366406" y="25.738594" transform="rotate(-0 87.366406 25.738594)">gpt-oss-120b</text>
     </g>
     <g id="line2d_91">
      <path d="M 62.166406 36.089297 
@@ -859,7 +859,7 @@ L 80.166406 36.089297
      </g>
     </g>
     <g id="text_19">
-     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f0efec" x="87.366406" y="39.239297" transform="rotate(-0 87.366406 39.239297)">Qwen3.8-27B</text>
+     <text style="font-size: 9px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #f0efec" x="87.366406" y="39.239297" transform="rotate(-0 87.366406 39.239297)">Qwen3.8-27B</text>
     </g>
     <g id="line2d_92">
      <path d="M 62.166406 49.59 
@@ -871,7 +871,7 @@ L 80.166406 49.59
      </g>
     </g>
     <g id="text_20">
-     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f0efec" x="87.366406" y="52.74" transform="rotate(-0 87.366406 52.74)">Qwen3.8-Flash-Next</text>
+     <text style="font-size: 9px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #f0efec" x="87.366406" y="52.74" transform="rotate(-0 87.366406 52.74)">Qwen3.8-Flash-Next</text>
     </g>
     <g id="line2d_93">
      <path d="M 62.166406 63.090703 
@@ -883,7 +883,7 @@ L 80.166406 63.090703
      </g>
     </g>
     <g id="text_21">
-     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f0efec" x="87.366406" y="66.240703" transform="rotate(-0 87.366406 66.240703)">DeepSeek V4 Flash</text>
+     <text style="font-size: 9px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #f0efec" x="87.366406" y="66.240703" transform="rotate(-0 87.366406 66.240703)">DeepSeek V4 Flash</text>
     </g>
     <g id="line2d_94">
      <path d="M 62.166406 76.591406 
@@ -895,7 +895,7 @@ L 80.166406 76.591406
      </g>
     </g>
     <g id="text_22">
-     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f0efec" x="87.366406" y="79.741406" transform="rotate(-0 87.366406 79.741406)">GLM-5.3-Flash</text>
+     <text style="font-size: 9px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #f0efec" x="87.366406" y="79.741406" transform="rotate(-0 87.366406 79.741406)">GLM-5.3-Flash</text>
     </g>
     <g id="line2d_95">
      <g>
@@ -903,7 +903,7 @@ L 80.166406 76.591406
      </g>
     </g>
     <g id="text_23">
-     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f0efec" x="87.366406" y="93.242109" transform="rotate(-0 87.366406 93.242109)">DeepSeek V4 Flash, needle test (9/9 found)</text>
+     <text style="font-size: 9px; font-family: 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #f0efec" x="87.366406" y="93.242109" transform="rotate(-0 87.366406 93.242109)">DeepSeek V4 Flash, needle test (9/9 found)</text>
     </g>
    </g>
   </g>
